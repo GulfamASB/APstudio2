@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../../app/styles/common.module.css"
 import { text } from 'stream/consumers';
-
+import Image from "next/image"
 
 const about=()=> {
   return (
@@ -15,8 +15,8 @@ const about=()=> {
             <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1"/>
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2"/>
+            <Image class="w-full rounded-lg" src="/AP1.jpg" width={100} height={100} alt="office content 1"/>
+            <Image class="mt-4 w-full lg:mt-10 rounded-lg" src="/AP1.jpg" width={100} height={100} alt="office content 2"/>
         </div>
     </div>
 </section>
