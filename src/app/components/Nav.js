@@ -87,10 +87,9 @@ export default function Home() {
                     Contact US
                   </Link>
                 </li>
-
                 <li className="text-white">
-                  <button class="bg-cyan-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-cyan-700 hover:border-gray-500 rounded">
-                    Button
+                  <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...  bg-cyan-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-cyan-700 hover:border-gray-500 rounded">
+                    Login
                   </button>
                 </li>
               </ul>

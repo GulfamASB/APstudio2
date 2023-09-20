@@ -86,7 +86,8 @@
     }
 
     .hero_image img{
-        width: 40%;
+        width: 100%;
+        height: 60%;
     }
 
 

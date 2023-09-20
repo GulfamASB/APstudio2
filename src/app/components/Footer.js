@@ -11,7 +11,6 @@ export const metadata = {
 const Footer = () => {
     return (
         <>
-
             <footer className={footerStyles.footer}>
                 <div className={footerStyles.content}>
                     <div className={footerStyles.top}>
