@@ -29,9 +29,10 @@ const Footer = () => {
                     <div className={footerStyles['link-boxes']}>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Company</li>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/contact">Contact us</a></li>
+                            <li><a href="/about">About us</a></li>
+                            <li><a href="/ourteam">OurTeam</a></li>
                             <li><a href="#">Get started</a></li>
                         </ul>
                         <ul className={footerStyles.box}>

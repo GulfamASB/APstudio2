@@ -2,9 +2,9 @@
 
 .main_section{
     position: relative;
-    background: linear-gradient(-45deg, #dfe2dd, #0d0d0e, #faf8f8);
+    background: linear-gradient(-45deg, #9aee61, #1bdada, #faf8f8);
     background-size: 400% 400%;
-    /*animation: gradient-bg 20s ease infinite;*/
+    background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif)
 }
 
 /*@keyframes gradient-bg {*/
