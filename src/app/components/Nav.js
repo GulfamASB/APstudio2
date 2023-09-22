@@ -13,7 +13,7 @@ export default function Home() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="#" class="flex items-center">
+              <a href="#" className="flex items-center">
                 <Image
                   src="/AP.png"
                   alt="ecommerce"
@@ -21,7 +21,7 @@ export default function Home() {
                   width={50}
                   height={50}
                 />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">A PLUS STUDIO</span>
+                <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">A PLUS STUDIO</span>
               </a>
               <div className="md:hidden">
                 <button
@@ -93,7 +93,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li className="text-white">
-                  <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...  bg-cyan-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-cyan-700 hover:border-gray-500 rounded">
+                  <button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...  bg-cyan-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-cyan-700 hover:border-gray-500 rounded">
                     Login
                   </button>
                 </li>

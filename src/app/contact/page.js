@@ -3,6 +3,7 @@ import React, { useContext, useRef, useState } from "react";
 import { MdEmail, MdVoiceChat, MdForum } from "react-icons/md";
 import Link from "next/link"
 import emailjs from "@emailjs/browser";
+import styles from "./contact.module.css";
 
 const Contact = () => {
 
@@ -31,6 +32,7 @@ const Contact = () => {
       );
   };
 
+
   return (
     <>
       <h1 style={{ color: 'Black', textAlign:'center', marginBottom:'1.6rem', fontSize:'2.5rem',fontWeight:'bold',fontFamily:'mulish'}} > Contact Us</h1>
@@ -49,7 +51,7 @@ const Contact = () => {
                   id="exampleInput90" placeholder="Name" />
                 <label
                   className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-                  for="exampleInput90">Name
+                  htmlFor="exampleInput90">Name
                 </label>
               </div>
               <div className="relative mb-6" data-te-input-wrapper-init>
@@ -58,14 +60,14 @@ const Contact = () => {
                   id="exampleInput91" placeholder="Email address" />
                 <label
                   className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-                  for="exampleInput91">Email address
+                  htmlFor="exampleInput91">Email address
                 </label>
               </div>
               <div className="relative mb-6" data-te-input-wrapper-init>
                 <textarea name="message"
                   className="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                   id="exampleFormControlTextarea1" rows="3" placeholder="Your message"></textarea>
-                <label  name="message" for="exampleFormControlTextarea1"
+                <label  name="message" htmlFor="exampleFormControlTextarea1"
                   className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary">Message</label>
               </div>
               <div className="mb-6 inline-block min-h-[1.5rem] justify-center pl-[1.5rem] md:flex">
@@ -180,8 +182,12 @@ const Contact = () => {
   </section>
 
 </div>
+<iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14022.1804498434!2d77.3962677!3d28.5233307!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce9d48b8267cd%3A0xb8ae7c7899c59509!2sInterior%20Craft!5e0!3m2!1sen!2sin!4v1695297049862!5m2!1sen!2sin"
+                width={100} height={450} style={{border: 0}} allowFullScreen="" loading="lazy" className={styles.mapping}
+                referrerPolicy="no-referrer-when-downgrade"></iframe>
 
-    </>
+</>
   )
 }
 
