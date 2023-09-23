@@ -9,7 +9,8 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full bg-black shadow">
+      <nav className="w-full bg-black shadow      background: #141414
+    background-color: rgba(20, 20, 20, 0.94) margin-inline-start: 20px">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -19,9 +20,8 @@ export default function Home() {
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   width={50}
-                  height={50}
+                  height={80}
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">A PLUS STUDIO</span>
               </a>
               <div className="md:hidden">
                 <button
@@ -67,29 +67,34 @@ export default function Home() {
                 }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white font-bold hover:text-teal-600 mr-4 my-auto  ">
+                <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
                   <Link href="/">
-                    Home
+                    HOME
                   </Link>
                 </li>
-                <li className="text-white font-bold hover:text-teal-600 mr-4 my-auto  ">
+                <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
+                  <Link href="/service">
+                    SERVICES
+                  </Link>
+                </li>
+                <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
                   <Link href="/blogs">
-                    Products
+                    PRODUCTS
                   </Link>
                 </li>
-                <li className="text-white font-bold hover:text-teal-600 mr-4 my-auto  ">
+                <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
                   <Link href="/about">
-                    About US
+                    ABOUT US
                   </Link>
                 </li>
-                <li className="text-white font-bold  hover:text-teal-600 mr-4 my-auto    " >
+                <li className="text-white font-bold  hover:text-cyan-600 mr-4 my-auto    " >
                   <Link href="/contact">
-                    Contact US
+                    CONTACT US
                   </Link>
                 </li>
-                <li className="text-white font-bold  hover:text-teal-600 mr-4 my-auto    " >
+                <li className="text-white font-bold  hover:text-cyan-600 mr-4 my-auto    " >
                   <Link href="/ourteam">
-                    OurTeam
+                    OURTEAM
                   </Link>
                 </li>
                 <li className="text-white">

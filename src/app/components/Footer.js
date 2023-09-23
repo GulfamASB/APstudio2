@@ -2,6 +2,7 @@ import React from 'react';
 import footerStyles from '@/app/styles/footer.module.css'
 import { FaFacebookF, FaTwitter,FaInstagram,FaLinkedinIn,FaYoutube } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image"
 
 
 export const metadata = {
@@ -16,7 +17,13 @@ const Footer = () => {
                     <div className={footerStyles.top}>
                         <div className={footerStyles['logo-details']}>
                             {/*<i className={footerStyles.fab fa-slack]></i>*/}
-                            <span className={footerStyles.logo_name}>AP STUDIO</span>
+                            <Image
+                  src="/AP.png"
+                  alt="ecommerce"
+                  className={footerStyles.logo_name}
+                  width={50}
+                  height={0}
+                />
                         </div>
                         <div className={footerStyles[`media-icons`]}>
                             <Link href="#"><i > <FaFacebookF/> </i></Link>
@@ -32,8 +39,9 @@ const Footer = () => {
                             <li><a href="/">Home</a></li>
                             <li><a href="/contact">Contact us</a></li>
                             <li><a href="/about">About us</a></li>
+                            <li><a href="/service">Services</a></li>
                             <li><a href="/ourteam">OurTeam</a></li>
-                            <li><a href="#">Get started</a></li>
+                            <li><a href="/">Get started</a></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Services</li>

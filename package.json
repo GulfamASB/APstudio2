@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "Developer": "GULFAAM",
   "version": "0.1.0",
   "private": true,
   "scripts": {
