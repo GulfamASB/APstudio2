@@ -5,20 +5,22 @@ import Image from "next/image"
 const futured_product = () => {
   return (
     <>
-      <div >
-        
-    <div class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-        
-    <h1 class="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> A plus Studio featured projects </h1>
-    <video src="/AP8.mp4"
+     <section class="relative z-10 my-4 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+<video src=
+"/AP8.mp4"
             autoplay="{true}" loop muted
-            className="absolute z-5 w-5 
+            className="absolute z-10 w-auto 
             min-w-full min-h-full max-w-none">
         </video>
-        <div class="space-y-16">
+<div class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
+        
+    <h1 class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white"> A Plus Studio featured projects </h1>
+    
+    </div>
+<div class="space-y-16">
             <div
-                class=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
-                <div class="w-full md:w-1/4 space-y-4">
+                class=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
+                <div class=" text-white w-full md:w-1/4 space-y-4">
                     <p>
                     A Plus Studio pivot hinges are applied to residential and commercial pivot door projects from all over the world.
                     </p>
@@ -29,10 +31,24 @@ const futured_product = () => {
              </div>
                
                </div>
-            </div>
-  
-
-    </div>
+            
+  <div class="relative z-10 my-4 container px-7 py-24 mx-auto flex flex-wrap">
+    <div class="-mx-4 flex flex-wrap items-center justify-between">
+        
+      
+        </div>
+      </div>
+      <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
+        <div class="mt-10 lg:mt-0  Justify-Content">
+          <h2 class=" relative z-10 my-4 text-dark mb-8 text-3xl font-bold sm:text-4xl text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
+          A PLUS STUDIO is specialized in manufacturing engineered products
+          </h2>
+          
+         
+        </div>
+      </div>
+    
+</section>
  
     </>
   )
