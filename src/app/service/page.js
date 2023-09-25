@@ -1,16 +1,16 @@
 import React from 'react'
 import Image from "next/image"
-import About from "../../app/about/page"
+import Futured_product from "@/app/futured_product/page"
 
 const Services = () => {
   return (
     <>
       <div class="bg-gray-50">
-    <div class="py-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-    <h1 class="mb-4 text-4xl mb-10 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> About Services</h1>
+    <div class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
+    <h1 class="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> About Services</h1>
         <div class="space-y-16">
             <div
-                class="space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
+                class=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
                 <div class="w-full md:w-1/4 space-y-4">
                     <h3 class="font-medium text-2xl">Advanced Wall Cladding</h3>
                     <p>
@@ -30,7 +30,7 @@ The product is equipped with an advanced facial recognition system that can accu
                </div>
             </div>
             <div
-                class="space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
+                class=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
                 <div class="w-full md:w-1/4 space-y-4">
                     <h3 class="font-medium text-2xl">Multi-Device Synchronization</h3>
                     <p>
@@ -40,7 +40,7 @@ Description: This product offers seamless synchronization across multiple device
                 </div>
                 <div class="mx-auto w-1/2 md:w-1/3">
                 <Image
-                  src="/AP2.jpg"
+                  src="/AP7.jpg"
                   alt="ecommerce"
                   width={400}
                   height={100}
@@ -48,7 +48,7 @@ Description: This product offers seamless synchronization across multiple device
    </div>
    </div>
     </div>
-    <About />
+ <Futured_product/>
     </>
   )
 }
