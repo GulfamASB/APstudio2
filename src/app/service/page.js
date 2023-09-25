@@ -1,12 +1,13 @@
 import React from 'react'
 import Image from "next/image"
+import About from "../../app/about/page"
 
 const Services = () => {
   return (
     <>
       <div class="bg-gray-50">
     <div class="py-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-    <h1 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> About Services</h1>
+    <h1 class="mb-4 text-4xl mb-10 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> About Services</h1>
         <div class="space-y-16">
             <div
                 class="space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
@@ -47,6 +48,7 @@ Description: This product offers seamless synchronization across multiple device
    </div>
    </div>
     </div>
+    <About />
     </>
   )
 }

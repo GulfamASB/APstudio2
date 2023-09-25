@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import About from "../../app/about/page.js"
+import Service from "../../app/service/page.js"
 import heroStyles from "../../app/styles/herosection.module.css"
 import styles from "../../app/styles/common.module.css"
 
@@ -42,7 +42,7 @@ const Herosection = () => {
                 </svg>
             </div>
         </main>
-<About/>
+<Service/>
         </>
     );
 };
