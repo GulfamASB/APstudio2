@@ -42,7 +42,7 @@ const Contact = () => {
   return (
     <>
      <div className="container my-24 mx-auto md:px-6 ">
-  <section className="mb-32 margin={5}">
+  <section style={{marginTop:'-4rem'}} className="mb-32 margin={5}">
     <div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-[url('https://mdbcdn.b-cdn.net/img/new/textures/full/284.jpg')]"></div>
     <div className="container px-6 md:px-12">
       <div
@@ -199,9 +199,9 @@ const Contact = () => {
   </section>
 
 </div>
-<iframe
+<iframe style={{marginTop:'-7rem', marginBottom:'-6rem'}} 
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14022.1804498434!2d77.3962677!3d28.5233307!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce9d48b8267cd%3A0xb8ae7c7899c59509!2sInterior%20Craft!5e0!3m2!1sen!2sin!4v1695297049862!5m2!1sen!2sin"
-                width={100} height={450} style={{border: 0}} allowFullScreen="" loading="lazy" className={styles.mapping}
+                width={100} height={450}  allowFullScreen="" loading="lazy" className={styles.mapping}
                 referrerPolicy="no-referrer-when-downgrade"></iframe>
 
 </>

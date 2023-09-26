@@ -5,7 +5,7 @@ import Image from "next/image"
 const futured_product = () => {
   return (
     <>
-     <section class="relative z-10 my-4 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+     <section style={{ marginBottom:'-5.5rem'}} class="relative z-10 my-4 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
 <video src=
 "/AP8.mp4"
             autoplay="{true}" loop muted
@@ -17,11 +17,11 @@ const futured_product = () => {
     <h1 class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white"> A Plus Studio featured projects </h1>
     
     </div>
-<div class="space-y-16">
-            <div
+<div style={{marginTop:'-5rem'}} class="space-y-16">
+            <div 
                 class=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
-                <div class=" text-white w-full md:w-1/4 space-y-4">
-                    <p>
+                <div  class=" text-white w-full md:w-1/4 space-y-4">
+                    <p style={{marginLeft:80, marginRight:100}}>
                     A Plus Studio pivot hinges are applied to residential and commercial pivot door projects from all over the world.
                     </p>
                 </div>
@@ -41,7 +41,7 @@ const futured_product = () => {
       <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
         <div class="mt-10 lg:mt-0  Justify-Content">
           <h2 class=" relative z-10 my-4 text-dark mb-8 text-3xl font-bold sm:text-4xl text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
-          A PLUS STUDIO is specialized in manufacturing engineered products
+          A PLUS STUDIO 
           </h2>
           
          

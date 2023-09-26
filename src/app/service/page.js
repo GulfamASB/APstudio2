@@ -5,7 +5,7 @@ import Futured_product from "@/app/futured_product/page"
 const Services = () => {
   return (
     <>
-      <div class="bg-gray-50 ">
+      <div style={{ marginBottom:'-5.7rem'}} class="bg-gray-50 ">
         <div class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 class="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> About Services</h1>
           <div class="space-y-16">
