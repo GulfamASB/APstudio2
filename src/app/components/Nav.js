@@ -13,7 +13,7 @@ export default function Home() {
     background-color: rgba(20, 20, 20, 0.94) margin-inline-start: 20px">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between py-3 md:py-4  md:block">
               <a href="#" className="flex items-center">
                 <Image
                   src="/AP.png"
@@ -98,9 +98,8 @@ export default function Home() {
                   </Link>
                 </li>
                 <li className="text-white">
-                  <button className="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...  bg-cyan-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-cyan-700 hover:border-gray-500 rounded">
-                    Login
-                  </button>
+                <button  type="button" class="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Login</button>
+            
                 </li>
               </ul>
             </div>

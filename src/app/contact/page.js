@@ -1,7 +1,7 @@
 "use client"
 import React, { useContext, useRef, useState } from "react";
 import { MdEmail, MdVoiceChat, MdForum } from "react-icons/md";
-import Link from "next/link"
+import Link from "next/link";
 import emailjs from "@emailjs/browser";
 import styles from "./contact.module.css";
 
@@ -42,7 +42,7 @@ const Contact = () => {
   return (
     <>
      <div className="container my-24 mx-auto md:px-6 ">
-  <section style={{marginTop:'-4rem'}} className="mb-32 margin={5}">
+  <section style={{marginTop:'-6rem'}} className="mb-32 margin={5}">
     <div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-[url('https://mdbcdn.b-cdn.net/img/new/textures/full/284.jpg')]"></div>
     <div className="container px-6 md:px-12">
       <div

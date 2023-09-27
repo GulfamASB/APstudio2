@@ -29,6 +29,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "tailwind-clip-path": "^1.0.0",
     "tsparticles": "^2.12.0"
   }
 }
