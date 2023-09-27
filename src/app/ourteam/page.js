@@ -32,7 +32,7 @@ const Ourteam = () => {
                         <div class="flex flex-col">
                   
                             <a href="#">
-                                <img class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                <Image class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                                     src="/CEO.jpg" />
                             </a>
 
@@ -74,7 +74,7 @@ const Ourteam = () => {
                         <div class="flex flex-col">
                            
                             <a href="#">
-                                <img class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                <Image class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                                     src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80" />
                             </a>
 
@@ -116,7 +116,7 @@ const Ourteam = () => {
                         <div class="flex flex-col">
                         
                             <a href="#">
-                                <img class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                <Image class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                                     src="https://images.unsplash.com/photo-1634193295627-1cdddf751ebf?fit=clamp&w=400&h=400&q=80" />
                             </a>
 
@@ -155,7 +155,7 @@ const Ourteam = () => {
                         <div class="flex flex-col">
                      
                             <a href="#">
-                                <img class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                <Image class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                                     src="https://images.unsplash.com/photo-1635003913011-95971abba560?fit=clamp&w=400&h=400&q=80" />
                             </a>
 

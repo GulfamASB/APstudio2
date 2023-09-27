@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 import { text } from 'stream/consumers';
-import Image from "next/image"
-
+import Image from "next/image";
 
 const about=()=> {
   return (
@@ -16,14 +15,14 @@ const about=()=> {
         <div class="-mx-3 flex items-center sm:-mx-4">
           <div class="w-full px-3 sm:px-4 xl:w-1/2">
             <div class="py-3 sm:py-4">
-              <img
+              <Image
                 src="/AP6.jpg"
                 alt=""
                 class="w-full rounded-2xl"
               />
             </div>
             <div class="py-3 sm:py-4">
-              <img
+              <Image
                 src="/AP5.jpg"
                 alt=""
                 class="w-full rounded-2xl"
@@ -32,7 +31,7 @@ const about=()=> {
           </div>
           <div class="w-full px-3 sm:px-4 xl:w-1/2">
             <div class="relative z-10 my-4">
-              <img
+              <Image
                 src="/AP4.jpg"
                 alt=""
                 class="w-full rounded-2xl"
