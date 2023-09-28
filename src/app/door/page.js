@@ -13,7 +13,7 @@ const Door = () => {
             <div
                 class=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
                 <div style={{marginTop:'-5rem'}} class=" text-justify text-white w-full md:w-1/3 space-y-4">
-                    <p style={{marginLeft:80, marginRight:100}}>
+                    <p style={{marginLeft:20, marginRight:20}}>
                     Every A Plus Studi pivot hinge offers the architect the possibility to design pivot doors without limitations. The high load-bearing capacity of the hinges gives freedom to create pivot doors that exceed the function of a normal door and become true design statements.
                     </p>
                 </div>

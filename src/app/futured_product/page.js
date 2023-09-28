@@ -11,15 +11,15 @@ const futured_product = () => {
           className="absolute z-10 w-auto 
             min-w-full min-h-full max-w-none">
         </video>
-        <div class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
+        <div style={{ marginTop: '5rem' }} class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
 
-          <h1 class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white"> A Plus Studio featured projects </h1>
 
         </div>
-        <div style={{ marginTop: '-5rem' }} class="space-y-16">
+        <div  class="space-y-16">
           <div
             class=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
             <div class=" text-white w-full md:w-1/4 space-y-4">
+            <h1 style={{ marginLeft: 80, marginRight: 100 }} class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white"> A Plus Studio featured projects </h1>
               <p style={{ marginLeft: 80, marginRight: 100 }}>
                 A Plus Studio pivot hinges are applied to residential and commercial pivot door projects from all over the world.
               </p>
