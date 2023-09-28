@@ -21,7 +21,7 @@ export default function Home() {
                   className="object-cover object-center w-full h-full block"
                   width={50}
                   height={80}
-                />
+                />  
               </a>
               <div className="md:hidden">
                 <button
