@@ -16,7 +16,7 @@ const clip = () => {
                     </video>
     </div>
     <div class=" relative z-10 my-4 video-content space-y-2">
-    <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white  animate-pulse bg-gradient-to-r from-pink-500 via-green-500 to-violet-500 bg-clip-text text-transparent"> Lorain Empsem  Lorain Empsem  Lorain Empsem </h1>
+    <h1 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white  animate-pulse bg-gradient-to-r from-pink-500 via-green-500 to-violet-500 bg-clip-text text-transparent"> Lorain Empsem  Lorain Empsem  Lorain Empsem </h1>
             
             
             

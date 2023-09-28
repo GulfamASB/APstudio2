@@ -17,10 +17,10 @@ const futured_product = () => {
         </div>
         <div  class="space-y-16">
           <div
-            class=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
+           class=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
             <div class=" text-white w-full md:w-1/4 space-y-4">
-            <h1 style={{ marginLeft: 80, marginRight: 100 }} class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white"> A Plus Studio featured projects </h1>
-              <p style={{ marginLeft: 80, marginRight: 100 }}>
+            <h1 style={{ marginLeft: 20, marginRight: 20 }} class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white"> A Plus Studio featured projects </h1>
+              <p style={{ marginLeft: 20, marginRight: 20 }}>
                 A Plus Studio pivot hinges are applied to residential and commercial pivot door projects from all over the world.
               </p>
             </div>

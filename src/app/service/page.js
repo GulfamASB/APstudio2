@@ -34,7 +34,6 @@ const Services = () => {
           <div class="w-full md:w-1/4 space-y-4">
             <h3 class="font-medium text-2xl">Multi-Device Synchronization</h3>
             <p>
-
               Multi-Device Synchronization
               Description: This product offers seamless synchronization across multiple devices. Users can easily sync their data, settings, and preferences across devices such as smartphones, tablets, and computers.
             </p>

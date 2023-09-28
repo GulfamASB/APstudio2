@@ -13,7 +13,7 @@ const hings = () => {
 <div  class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
     
         
-    <h1 style={{ marginTop:'6rem'}}  class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-left text-gray-900 text-white">Dream bigger. With smaller hinges. </h1>
+    <h1 style={{ marginTop:'8rem'}}  class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-left text-gray-900 text-white">Dream bigger. With smaller hinges. </h1>
     
     </div>
 <div class="space-y-16">
