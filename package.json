@@ -21,6 +21,7 @@
     "eslint-config-next": "13.4.19",
     "git": "^0.1.5",
     "html2canvas": "^1.4.1",
+    "mongoose": "^7.5.3",
     "next": "13.4.19",
     "nookies": "^2.5.2",
     "postcss": "8.4.29",
