@@ -16,6 +16,8 @@ const about=()=> {
           <div class="w-full px-3 sm:px-4 xl:w-1/2">
             <div class="py-3 sm:py-4">
               <Image
+              width={1000}
+              height={1000}
                 src="/AP6.jpg"
                 alt=""
                 class="w-full rounded-2xl"
@@ -23,6 +25,8 @@ const about=()=> {
             </div>
             <div class="py-3 sm:py-4">
               <Image
+               width={1000}
+               height={1000}
                 src="/AP5.jpg"
                 alt=""
                 class="w-full rounded-2xl"
@@ -32,6 +36,8 @@ const about=()=> {
           <div class="w-full px-3 sm:px-4 xl:w-1/2">
             <div class="relative z-10 my-4">
               <Image
+               width={1000}
+               height={1000}
                 src="/AP4.jpg"
                 alt=""
                 class="w-full rounded-2xl"

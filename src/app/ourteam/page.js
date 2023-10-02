@@ -33,6 +33,8 @@ const Ourteam = () => {
                   
                             <a href="#">
                                 <Image class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
+                                width={1000}
+                                height={1000}
                                     src="/CEO.jpg" />
                             </a>
 
@@ -75,7 +77,9 @@ const Ourteam = () => {
                            
                             <a href="#">
                                 <Image class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                    src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80" />
+                                
+                                    src="https://images.unsplash.com/photo-1634896941598-b6b500a502a7?fit=clamp&w=400&h=400&q=80"
+                                     />
                             </a>
 
                             <div class="text-center mt-6">

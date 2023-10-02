@@ -39,16 +39,17 @@ const Footer = () => {
                             <li><a href="/">Home</a></li>
                             <li><a href="/contact">Contact us</a></li>
                             <li><a href="/about">About us</a></li>
+                            <li><a href="/gallery">Gallery</a></li>
                             <li><a href="/service">Services</a></li>
                             <li><a href="/ourteam">OurTeam</a></li>
                             <li><a href="/">Get started</a></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Services</li>
-                            <li><a href="#">Wall Cladding</a></li>
-                            <li><a href="#">Wall Cladding</a></li>
-                            <li><a href="#">Wall Cladding</a></li>
-                            <li><a href="#">Wall Cladding</a></li>
+                            <li><a href="/gallery">Interior Design</a></li>
+                            <li><a href="/">Wall Cladding</a></li>
+                            <li><a href="/">Designing</a></li>
+                            <li><a href="/">Wall Cladding</a></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Account</li>
@@ -62,7 +63,7 @@ const Footer = () => {
                             <li><a href="#">Wall Cladding</a></li>
                             <li><a href="#">Wall Cladding</a></li>
                             <li><a href="#">Photography</a></li>
-                            <li><a href="#">Photoshop</a></li>
+                            <li><a href="/gallery">Photoshop</a></li>
                         </ul>
                         <ul className={`${footerStyles.box} ${footerStyles['input-box']}`}>
                             <li className={footerStyles.link_name}>Subscribe</li>
@@ -74,7 +75,7 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link href="/>"> AP Studio.</Link> All rights reserved </span>
+                            <Link href="/>"> A Plus Studio.</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
                           <Link href="/">Privacy policy</Link>
                           <Link href="/">Terms & condition</Link>
