@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <>
 
-                <section style={{marginBottom:'-35rem'}} class="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
+                <section  class="relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
                     <div class="video-docker absolute top-0 left-0 w-full h-96 overflow-hidden">
                         <video class="min-w-full min-h-full absolute object-cover" src="pro.mp4" type="video/mp4" autoplay="{true}" muted loop></video>
                         <div style={{ marginTop: '6rem' }} class="relative text-white video-content space-y-2">
@@ -18,8 +18,6 @@ const Contact = () => {
                 </section>
                 
     <Product/>
-
-
 
     <div  className="px-6 w-full">
   <div className="bg-blue-300 h-2 w-full rounded-full relative">
