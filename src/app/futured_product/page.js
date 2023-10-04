@@ -21,7 +21,7 @@ const futured_product = () => {
            class=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
             <div class=" text-white w-full md:w-1/4 space-y-4">
             <h1 style={{ marginLeft: 20, marginRight: 20 }} class="relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white"> A Plus Studio featured projects </h1>
-              <p style={{ marginLeft: 20, marginRight: 20 }}>
+              <p style={{ marginLeft: 20, marginRight: 20 }} className='font-light'>
                 A Plus Studio pivot hinges are applied to residential and commercial pivot door projects from all over the world. and we provide perfect & high-quality Wall Cladding. 
               </p>
             </div>

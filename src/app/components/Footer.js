@@ -1,6 +1,6 @@
 import React from 'react';
 import footerStyles from '@/app/styles/footer.module.css'
-import { FaFacebookF, FaTwitter,FaInstagram,FaLinkedinIn,FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image"
 
@@ -8,7 +8,6 @@ import Image from "next/image"
 export const metadata = {
     url: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css',
 }
-
 const Footer = () => {
     return (
         <>
@@ -18,17 +17,17 @@ const Footer = () => {
                         <div className={footerStyles['logo-details']}>
                             {/*<i className={footerStyles.fab fa-slack]></i>*/}
                             <Image
-                  src="/logo.svg"
-                  alt="ecommerce"
-                  className={footerStyles.logo_name}
-                  width={50}
-                  height={0}
-                />
+                                src="/logo.svg"
+                                alt="ecommerce"
+                                className={footerStyles.logo_name}
+                                width={50}
+                                height={0}
+                            />
                         </div>
                         <div className={footerStyles[`media-icons`]}>
-                            <Link href="#"><i > <FaFacebookF/> </i></Link>
-                            <Link href="#"><i > <FaTwitter/> </i> </Link>
-                            <Link href="https://www.instagram.com/" target="_blank"><i > <FaInstagram/>  </i></Link>
+                            <Link href="#"><i > <FaFacebookF /> </i></Link>
+                            <Link href="#"><i > <FaTwitter /> </i> </Link>
+                            <Link href="https://www.instagram.com/" target="_blank"><i > <FaInstagram />  </i></Link>
                             <Link href="#"><i > <FaLinkedinIn /> </i></Link>
                             <Link href="#"><i > <FaYoutube />  </i></Link>
                         </div>
@@ -47,7 +46,7 @@ const Footer = () => {
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Services</li>
                             <li><a href="/gallery">Interior Design</a></li>
-                            <li><a href="/">Wall Cladding</a></li>
+                            <li><a href="/">Door</a></li>
                             <li><a href="/">Designing</a></li>
                             <li><a href="/">Wall Cladding</a></li>
                         </ul>
@@ -61,7 +60,7 @@ const Footer = () => {
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>products</li>
                             <li><a href="#">Wall Cladding</a></li>
-                            <li><a href="#">Wall Cladding</a></li>
+                            <li><a href="#">Door</a></li>
                             <li><a href="#">Photography</a></li>
                             <li><a href="/gallery">Photoshop</a></li>
                         </ul>
@@ -77,13 +76,12 @@ const Footer = () => {
                         <span className={footerStyles.copyright_text}> Copyright © 2023
                             <Link href="/>"> A Plus Studio.</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
-                          <Link href="/">Privacy policy</Link>
-                          <Link href="/">Terms & condition</Link>
+                            <Link href="/">Privacy policy</Link>
+                            <Link href="/">Terms & condition</Link>
                         </span>
                     </div>
                 </div>
             </footer>
-
         </>
     );
 }

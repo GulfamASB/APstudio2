@@ -4,7 +4,6 @@ import Link from 'next/link';
 import Image from "next/image";
 import { useState } from 'react';
 
-
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
@@ -21,7 +20,7 @@ export default function Home() {
                   className="object-cover object-center w-full h-full block"
                   width={50}
                   height={80}
-                />  
+                />
               </a>
               <div className="md:hidden">
                 <button
@@ -66,7 +65,7 @@ export default function Home() {
               className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                 }`}
             >
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="items-center  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
                   <Link href="/">
                     HOME
@@ -98,8 +97,8 @@ export default function Home() {
                   </Link>
                 </li>
                 <li className="text-white">
-                <button  type="button" class="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Login</button>
-            
+                  <button type="button" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Login</button>
+
                 </li>
               </ul>
             </div>
