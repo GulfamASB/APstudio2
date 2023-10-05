@@ -1,22 +1,16 @@
 import React from 'react';
 import styles from "./formdetails.module.css";
 import Formdetails from "@/app/components/Formdetails";
-import Product from '@/app/components/Product'
 const Contact = () => {
     return (
         <>
-
-<Product/>
 <div className={styles.container}>
             <h1>order details</h1>
                 <section className={styles.contact_section}>
                     <h2>We'd love to hear <span> from you </span></h2>
                     <Formdetails />
-                </section>
+                 </section>
             </div>
-
-           
-           
         </>
     );
 };

@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from "next/image"
 import Futured_product from "@/app/futured_product/page"
-
 const Services = () => {
   return (
     <>

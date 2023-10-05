@@ -1,266 +1,49 @@
-"use client"
-import React, { useState, useRef, useEffect } from "react";
-import { Transition } from "@headlessui/react";
-import Image from 'next/image'
-
-const Products = () => {
-  const [currentStep, setCurrentStep] = useState(0);
-  const [moving, setMoving] = useState("right");
-
-  const [steps, setSteps] = useState([
-    { name: "Step 1", href: "#", status: "current" },
-    { name: "Step 2", href: "#", status: "upcoming" },
-    { name: "Step 3", href: "#", status: "upcoming" },
-    { name: "Step 4", href: "#", status: "upcoming" }
-  ]);
-
-  const prevStep = () => {
-    setMoving("left");
-    setSteps((old) =>
-      old.map((v, i) => {
-        if (i === currentStep) {
-          v.status = "upcoming";
-        } else if (i === currentStep - 1) {
-          v.status = "current";
-        }
-        return v;
-      })
-    );
-    setCurrentStep(currentStep - 1);
-    return false;
-  };
-
-  const nextStep = async () => {
-    setMoving("right");
-    // getValues('firstname')
-
-    if (true) {
-      setSteps((old) =>
-        old.map((v, i) => {
-          if (i === currentStep) {
-            v.status = "complete";
-          } else if (i === currentStep + 1) {
-            v.status = "current";
-          }
-          return v;
-        })
-      );
-      setCurrentStep(currentStep + 1);
-    }
-    return false;
-  };
-
-  const wrapper = useRef(null);
-  const [wrapperWidth, setWrapperWidth] = useState(1);
-
-  useEffect(() => {
-    function handleResize() {
-      if (wrapper.current !== null) {
-        setWrapperWidth(wrapper.current.offsetWidth);
-      }
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
+import React from 'react'
+import Link from 'next/link'
+const Product = () => {
   return (
-    <div className=" min-h-screen bg-white flex">
-      <div className=" bg-white flex-1 flex flex-col justify-top py-12 px-4 sm:px-6 ">
-     
-        <div
-          className="flex  items-start overflow-hidden w-96 sm:w-full"
-          ref={wrapper}
-        >
-          <div className="flex flex-nowrap ">
-            <Transition
-              appear={false}
-              unmount={false}
-              show={currentStep === 0}
-              enter="transform transition ease-in-out duration-500"
-              enterFrom={
-                moving === "right"
-                  ? `translate-x-96 opacity-0`
-                  : `-translate-x-96 opacity-0`
-              }
-              enterTo={`translate-x-0 opacity-100`}
-              leave="transform transition ease-in-out duration-500 "
-              leaveFrom={`translate-x-0 opacity-100`}
-              leaveTo={
-                moving === "right"
-                  ? `-translate-x-full opacity-0`
-                  : `translate-x-full opacity-0`
-              }
-              className="w-0  overflow-visible"
-              as="div"
-            >
-            <div style={{ width: `${wrapperWidth}px` }}>
-              <Image className=" rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                width={2000}
-                                height={1000}
-                                alt=""
-                                    src="/a24.jpg" />
-              </div>
-            </Transition>
-
-            <Transition
-              appear={false}
-              unmount={false}
-              show={currentStep === 1}
-              enter="transform transition ease-in-out duration-500"
-              enterFrom={
-                moving === "right"
-                  ? `translate-x-96 opacity-0`
-                  : `-translate-x-96 opacity-0`
-              }
-              enterTo={`translate-x-0 opacity-100`}
-              leave="transform transition ease-in-out duration-500 "
-              leaveFrom={`translate-x-0 opacity-100`}
-              leaveTo={
-                moving === "right"
-                  ? `-translate-x-96 opacity-0`
-                  : `translate-x-96 opacity-0`
-              }
-              className="bg-red-200 w-0 overflow-visible"
-              as="div"
-            >
-              <div style={{ width: `${wrapperWidth}px` }}>
-              <Image className=" rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                width={2000}
-                                height={1000}
-                                alt=""
-                                    src="/a24.jpg" />
-              </div>
-            </Transition>
-
-            <Transition
-              appear={false}
-              unmount={false}
-              show={currentStep === 2}
-              enter="transform transition ease-in-out duration-500"
-              enterFrom={
-                moving === "right"
-                  ? `translate-x-96 opacity-0`
-                  : `-translate-x-96 opacity-0`
-              }
-              enterTo={`translate-x-0 opacity-100`}
-              leave="transform transition ease-in-out duration-500 "
-              leaveFrom={`translate-x-0 opacity-100`}
-              leaveTo={
-                moving === "right"
-                  ? `-translate-x-96 opacity-0`
-                  : `translate-x-96 opacity-0`
-              }
-              className="w-0 overflow-visible"
-              as="div"
-            >
-              <div style={{ width: `${wrapperWidth}px` }}>
-              <Image className=" rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                width={2000}
-                                height={1000}
-                                alt=""
-                                    src="/AP25.jpg" />
-              </div>
-            </Transition>
-
-            <Transition
-              appear={false}
-              unmount={false}
-              show={currentStep === 3}
-              enter="transform transition ease-in-out duration-500"
-              enterFrom={
-                moving === "right"
-                  ? `translate-x-96 opacity-0`
-                  : `-translate-x-96 opacity-0`
-              }
-              enterTo={`translate-x-0 opacity-100`}
-              leave="transform transition ease-in-out duration-500 "
-              leaveFrom={`translate-x-0 opacity-100`}
-              leaveTo={
-                moving === "right"
-                  ? `-translate-x-96 opacity-0`
-                  : `translate-x-96 opacity-0`
-              }
-              className="bg-blue-200 w-0 overflow-visible"
-              as="div"
-            >
-              <div style={{ width: `${wrapperWidth}px` }}>
-              <Image className=" rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                width={2000}
-                                height={1000}
-                                alt=""
-                                    src="/a24.jpg" />
-              </div>
-            </Transition>
-          </div>
-        </div>
-        <div className={`mt-2`}>
-          <p className="text-sm font-medium mb-1 mt-3 text-center">
-            Step {steps.findIndex((step) => step.status === "current") + 1} of{" "}
-            {steps.length}
-          </p>
-          <nav
-            className="flex items-center justify-center"
-            aria-label="Progress"
-          >
-            <button
-              type="button"
-              disabled={currentStep === 0}
-              onClick={() => prevStep()}
-            >
-              Prev
-            </button>
-            <ol className="mx-8 flex items-center space-x-5">
-              {steps.map((step, i) => (
-                <li key={`step_${i}`}>
-                  {step.status === "complete" ? (
-                    <a
-                      href={step.href}
-                      className="block w-2.5 h-2.5 bg-indigo-600 rounded-full hover:bg-indigo-900"
-                    >
-                      <span className="sr-only"></span>
-                    </a>
-                  ) : step.status === "current" ? (
-                    <a
-                      href={step.href}
-                      className="relative flex items-center justify-center"
-                      aria-current="step"
-                    >
-                      <span
-                        className="absolute w-5 h-5 p-px flex"
-                        aria-hidden="true"
-                      >
-                        <span className="w-full h-full rounded-full bg-indigo-200" />
-                      </span>
-                      <span
-                        className="relative block w-2.5 h-2.5 bg-indigo-600 rounded-full"
-                        aria-hidden="true"
-                      />
-                      <span className="sr-only"></span>
-                    </a>
-                  ) : (
-                    <a
-                      href={step.href}
-                      className="block w-2.5 h-2.5 bg-gray-200 rounded-full hover:bg-gray-400"
-                    >
-                      <span className="sr-only"></span>
-                    </a>
-                  )}
-                </li>
-              ))}
-            </ol>
-            <button
-              type="button"
-              disabled={currentStep === 3}
-              onClick={() => nextStep()}
-            >
-              Next
-            </button>
-          </nav>
-        </div>
+    <>
+  <div class="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md">
+  <a class="h-80 relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl" href="#">
+    <img class="object-cover" src="/AP7.jpg" alt="product image" />
+    <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">39% OFF</span>
+  </a>
+  <div class="mt-4 px-5 pb-5">
+    <a href="#">
+      <h5 class="text-xl tracking-tight text-slate-900">Wooden Door</h5> 
+    </a>
+    <div class="mt-2 mb-5 flex items-center justify-between">
+      <p>
+        <span class="text-3xl font-bold text-slate-900">$449</span>
+        <span class="text-sm text-slate-900 line-through">$699</span>
+      </p>
+      <div class="flex items-center">
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <svg aria-hidden="true" class="h-5 w-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+        </svg>
+        <span class="mr-2 ml-3 rounded bg-yellow-200 px-2.5 py-0.5 text-xs font-semibold">5.0</span>
       </div>
     </div>
-  );
-};
-export default Products
+    <Link href="/products/1" class="flex items-center justify-center rounded-md text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 px-5 py-2.5 text-center text-sm font-medium text-black hover:bg-gray-700 focus:outline-none ">
+      
+      View & Order</Link>
+  </div>
+</div>
+
+    </>
+  )
+}
+
+export default Product
