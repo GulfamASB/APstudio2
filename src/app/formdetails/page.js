@@ -16,9 +16,9 @@ const Contact = () => {
                         </div>
                     </div>
                 </section>
-
+<Product/>
 <div className={styles.container}>
-            <h1>Contact Us</h1>
+            <h1>order details</h1>
                 <section className={styles.contact_section}>
                     <h2>We'd love to hear <span> from you </span></h2>
                     <Formdetails />
