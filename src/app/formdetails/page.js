@@ -5,8 +5,8 @@ const Contact = () => {
     return (
         <>
 <div className={styles.container}>
-            <h1>order details</h1>
                 <section className={styles.contact_section}>
+                <h1>order details</h1>
                     <h2>We'd love to hear <span> from you </span></h2>
                     <Formdetails />
                  </section>

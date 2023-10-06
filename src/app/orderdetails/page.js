@@ -19,8 +19,8 @@ const Contact = () => {
 </div>
             <div className='relative z-10 my-4' >
                 <div className={styles.container}>
-                    <h1 >Order Form</h1>
                     <section className={styles.contact_section}>
+                    <h1 >Order Form</h1>
                         <h2>We'd love to hear <span> from you </span></h2>
                         <Orderdetails />
                     </section>

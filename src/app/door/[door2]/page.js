@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from '@/app/components/Product'
+import Product from '@/app/components/Doorproduct'
 import Productguide from '@/app/components/Productguide'
 import Link from 'next/link'
 const Doorproduct = () => {
