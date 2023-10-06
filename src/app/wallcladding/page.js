@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from '../../app/components/wall'
+import Product from './../../app/components/wall'
 import Productguide from '@/app/components/Orderguide'
 import Link from 'next/link'
 const Wallcladding = () => {
