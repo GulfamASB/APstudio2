@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-const Product = () => {
+const Wall = () => {
   return (
 
       <div className="bg-stone-100">
@@ -94,4 +94,4 @@ const Product = () => {
 
   );
 };
-export default Product
+export default Wall

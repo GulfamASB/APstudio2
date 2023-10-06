@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Wall from '../../app/components/wall'
 import Guide from '@/app/components/Orderguide'
 import Link from 'next/link'
 const Wallcladding = () => {
@@ -17,7 +17,7 @@ const Wallcladding = () => {
                         </div>
                     </div>
                 </section>
-
+                <Wall /> 
                 <Guide />
     </>
   )
