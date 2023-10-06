@@ -1,6 +1,6 @@
 import React from 'react'
-import Product from './../../app/components/wall'
-import Productguide from '@/app/components/Orderguide'
+import Wall from '../../app/components/wall'
+import Guide from '@/app/components/Orderguide'
 import Link from 'next/link'
 const Wallcladding = () => {
   return (
@@ -17,8 +17,8 @@ const Wallcladding = () => {
                         </div>
                     </div>
                 </section>
-                <Product /> 
-                <Productguide />
+                <Wall /> 
+                <Guide />
     </>
   )
 }
