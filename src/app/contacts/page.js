@@ -117,11 +117,11 @@ const Contact = () => {
                       Email
                     </p>
                     <p className="text-neutral-500 dark:text-neutral-200">
-                      Apstudio.in@gmail.com
+                      Info@aplusstudio.in
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-200">Monday to Friday Expected </p>
-                        <p className="text-neutral-500 dark:text-neutral-200">response time: 72 hours </p>
-                        <Link href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AYZoVhey7rMENQWeEmyrMjZhFLDc-mkLmlMUOPPmEFnztrtgsB3gE8sS6mg-nLI6hIQnJ3gzshoBmg&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-821687130%3A1695292979854759&theme=glif">  Send Email <span>-&gt;</span></Link>
+                    <p className="text-neutral-500 dark:text-neutral-200">Monday to Saturday Expected </p>
+                        <p className="text-neutral-500 dark:text-neutral-200">response time: 24 hours </p>
+                        <Link href="https://gmail.com">  Send Email <span>-&gt;</span></Link>
                   </div>
                 </div>
               </div>
@@ -141,7 +141,7 @@ const Contact = () => {
                       Sales questions
                     </p>
                     <p className="text-neutral-500 dark:text-neutral-200">
-                      sales@example.com
+                      aplusstudio.in
                     </p>
                     <p className="text-neutral-500 dark:text-neutral-200">
                       +1 234-567-89
@@ -164,7 +164,7 @@ const Contact = () => {
                   <div className="ml-6 grow">
                     <p className="mb-2 font-bold dark:text-white">Press</p>
                     <p className="text-neutral-500 dark:text-neutral-200">
-                      press@example.com
+                      aplusstudio.in
                     </p>
                     <p className="text-neutral-500 dark:text-neutral-200">
                       +1 234-567-89
@@ -183,7 +183,7 @@ const Contact = () => {
                     <p className="mb-2 font-bold dark:text-white">Live Chat
                         </p>
                     <p className="text-neutral-500 dark:text-neutral-200">
-                     APstudio@gmail.com
+                     Info@aplusstudio.in
                     </p>
                     <p className="text-neutral-500 dark:text-neutral-200">Weekdays: 9 AM — 6 PM ET</p>
                         <p className="text-neutral-500 dark:text-neutral-200">Weekends: 9 AM — 5 PM ET </p>
