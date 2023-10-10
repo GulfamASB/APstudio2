@@ -9,7 +9,7 @@ const about = () => {
                 <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
                     <div class="flex flex-wrap ">
                         <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                            <div class="relative">
+                            <div class="relative z-10 my-4">
                                 <Image src="/CEO.jpg" alt=""
                                     width={1000} height={1000}
                                     class="relative z-40 object-cover w-full h-100 lg:rounded-tr-[80px] lg:rounded-bl-[80px] rounded" />
