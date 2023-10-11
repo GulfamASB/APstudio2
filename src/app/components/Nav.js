@@ -8,8 +8,8 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav style={{ position:'fixed', zIndex:'20'}} className="bg-[#292524]  opacity-95 w-full">
-        <div style={{height:'6.5rem'}} className=" bg-[#292524] justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+      <nav style={{ position:'fixed', zIndex:'20'}} className=" opacity-95 w-full">
+        <div  className=" bg-[#292524] justify-between px-4 mx-auto   md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-4  md:block">
               <a href="#" className="flex items-center">

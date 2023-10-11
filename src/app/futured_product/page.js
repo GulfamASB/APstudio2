@@ -5,7 +5,7 @@ import Link from 'next/link'
 const futured_product = () => {
   return (
     <>
-      <section style={{ marginBottom: '-5.5rem' }} class="relative z-10 my-4 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
+      <section style={{ marginBottom: '-6rem' }} class="relative z-10 my-4 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
         <video src=
           "/pro.mp4"
           autoplay="{true}" loop muted
