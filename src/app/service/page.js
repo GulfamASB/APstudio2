@@ -4,7 +4,7 @@ import Futured_product from "@/app/futured_product/page"
 const Services = () => {
   return (
     <>
-      <div style={{ marginBottom:'-5.7rem'}} class="bg-gray-50 ">
+      <div style={{ marginBottom:'-5.7rem',padding:"4rem"}} class="bg-gray-50">
         <div class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 class="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> About Services</h1>
           <div class="space-y-16">
@@ -13,7 +13,7 @@ const Services = () => {
               <div class="w-full md:w-1/4 space-y-4">
                 <h3 class="font-medium text-2xl">Advanced Wall Cladding</h3>
                 <p>
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. This feature provides enhanced security by allowing access only to authorized users
+                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. 
                 </p>
               </div>
               <div class="mx-auto w-1/2 md:w-1/3">
