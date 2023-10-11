@@ -4,8 +4,8 @@ import Link from 'next/link'
 const Door = () => {
   return (
     <>
-      <section class=" bg-[url('/AP10.jpg')] relative z-10 my-4 overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
-        <div class="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
+      <section  class=" bg-[url('/AP10.jpg')] relative z-10 my-4 overflow-hidden pt-10 pb-12 lg:pt-[120px] lg:pb-[90px]">
+        <div class="py-10 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 class=" pt-2 relative z-10 my-4 mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 text-white">Hidden in the door</h1>
         </div>
         <div class="space-y-16">
