@@ -46,22 +46,22 @@ const Footer = () => {
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Services</li>
                             <li><a href="/gallery">Interior Design</a></li>
-                            <li><a href="/">Door</a></li>
+                            <li><a href="/door">Door</a></li>
                             <li><a href="/">Designing</a></li>
-                            <li><a href="/">Wall Cladding</a></li>
+                            <li><a href="/wallcladding">Wall Cladding</a></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Account</li>
-                            <li><a href="#">Profile</a></li>
+                            <li><a href="/">Profile</a></li>
                             <li><a href="#">My account</a></li>
                             <li><a href="#">Prefrences</a></li>
-                            <li><a href="#">Purchase</a></li>
+                            <li><a href="/products">Purchase</a></li>
                         </ul>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>products</li>
-                            <li><a href="#">Wall Cladding</a></li>
-                            <li><a href="#">Door</a></li>
-                            <li><a href="#">Photography</a></li>
+                            <li><a href="/wallcladding">Wall Cladding</a></li>
+                            <li><a href="/door">Door</a></li>
+                            <li><a href="gallery">Photography</a></li>
                             <li><a href="/gallery">Photoshop</a></li>
                         </ul>
                         <ul className={`${footerStyles.box} ${footerStyles['input-box']}`}>
