@@ -10,7 +10,7 @@ const clip = () => {
           <video src=
             "/AP8.mp4"
             autoPlay="{true}" loop muted
-            className="absolute z-10 w-auto 
+            className="absolute z-10 w-full
             max-w-none">
           </video>
         </div>
