@@ -7,12 +7,12 @@ const clip = () => {
     <>
       <section className=" relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
         <div className=" video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-          <video src=
-            "/AP8.mp4"
-            autoPlay="{true}" loop muted
-            className="absolute z-10 w-full
-            max-w-none">
-          </video>
+        <video src=
+          "/AP8.mp4"
+          autoPlay="{true}" loop muted
+          className="absolute z-10 w-auto h-auto
+            min-w-full min-h-full max-w-none">
+        </video>
         </div>
         <div className=" relative z-10 my-4 video-content space-y-2">
           <h1 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white  animate-pulse bg-gradient-to-r from-pink-500 via-green-500 to-violet-500 bg-clip-text text-transparent"> APS Wall Cladding and Doors </h1>
