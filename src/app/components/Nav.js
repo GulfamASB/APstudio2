@@ -14,7 +14,7 @@ export default function Home() {
             <div className="flex items-center justify-between py-3 md:py-4  md:block">
               <a href="#" className="flex items-center">
                 <Image
-                  src="/AP.png"
+                  src="/logo1.png"
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
                   width={50}
