@@ -116,7 +116,7 @@ const Contact = () => {
                     <p className="mb-2 font-bold dark:text-black">
                       Email
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-200">
+                    <p className="text-neutral-500 dark:text-neutral-00">
                       Info@aplusstudio.in
                     </p>
                     <p className="text-neutral-500 dark:text-neutral-200">Monday to Saturday Expected </p>

@@ -100,7 +100,7 @@ const Products = () => {
             >
             <div style={{ width: `${wrapperWidth}px` }}>
               <Image className=" rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                width={2000}
+                                width={10000}
                                 height={1000}
                                 alt=""
                                     src="/a24.jpg" />
@@ -130,7 +130,7 @@ const Products = () => {
             >
               <div style={{ width: `${wrapperWidth}px` }}>
               <Image className=" rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                width={2000}
+                                width={10000}
                                 height={1000}
                                 alt=""
                                     src="/a24.jpg" />
@@ -160,7 +160,7 @@ const Products = () => {
             >
               <div style={{ width: `${wrapperWidth}px` }}>
               <Image className=" rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                width={2000}
+                                width={10000}
                                 height={1000}
                                 alt=""
                                     src="/AP25.jpg" />
@@ -190,7 +190,7 @@ const Products = () => {
             >
               <div style={{ width: `${wrapperWidth}px` }}>
               <Image className=" rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
-                                width={2000}
+                                width={10000}
                                 height={1000}
                                 alt=""
                                     src="/a24.jpg" />
