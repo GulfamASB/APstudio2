@@ -8,16 +8,16 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="  w-full">
-        <div  className=" bg-[#292524] justify-between px-12 mx-auto h-20  md:items-center md:flex">
+      <nav className="w-full">
+        <div className="bg-[#292524]  justify-between  px-12 mx-auto  md:items-center md:flex">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-4  md:block">
-              <a href="#" className="flex items-center">
+            <div className="flex items-center  justify-between py-3 md:py-4 md:block">
+              <a href="#" className=" h-20 flex items-center">
                 <Image
                   src="/log2.svg"
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  width={0}
+                  width={10}
                   height={0}
                 />
               </a>
