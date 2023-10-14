@@ -9,16 +9,16 @@ export default function Home() {
   return (
     <div>
       <nav className="  w-full">
-        <div  className=" bg-[#292524] justify-between px-4 mx-auto   md:items-center md:flex">
+        <div  className=" bg-[#292524] justify-between px-12 mx-auto h-20  md:items-center md:flex">
           <div>
             <div className="flex items-center justify-between py-3 md:py-4  md:block">
               <a href="#" className="flex items-center">
                 <Image
-                  src="/logo1.png"
+                  src="/log2.svg"
                   alt="ecommerce"
                   className="object-cover object-center w-full h-full block"
-                  width={50}
-                  height={80}
+                  width={0}
+                  height={0}
                 />
               </a>
               <div className="md:hidden">
