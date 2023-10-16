@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <nav className="w-full">
-        <div className="bg-[#292524]  justify-between  px-12 mx-auto  md:items-center md:flex">
+        <div className="bg-[#292524]  justify-between px-12 mx-auto  md:items-center md:flex">
           <div>
             <div className="flex items-center  justify-between py-3 md:py-4 md:block">
               <a href="#" className=" h-20 flex items-center">

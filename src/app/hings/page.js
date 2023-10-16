@@ -17,7 +17,7 @@ const hings = () => {
           <div style={{ marginTop: '-5rem' }}
             className=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-right ">
             <div className=" text-center text-white w-full md:w-1/4 space-y-4">
-              <p className='font-light'>
+              <p className='font-light' style={{ marginLeft: 20, marginRight: 20 }}>
                 Our new System One. Giving you even more room to dream.
               </p>
             </div>

@@ -1,10 +1,9 @@
 import React from 'react'
 import Image from "next/image"
-import Futured_product from "@/app/futured_product/page"
 const Services = () => {
   return (
     <>
-      <div style={{ marginBottom:'-9rem',padding:"4rem"}} className=" bg-[#f4f4f5]">
+      <div style={{ padding:"2.5rem"}} className=" bg-[#f4f4f5]">
         <div className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-black"> About Services</h1>
           <div className="space-y-16">
@@ -34,7 +33,7 @@ const Services = () => {
             <h3 className="font-medium text-2xl">Multi-Device Synchronization</h3>
             <p>
               Multi-Device Synchronization
-              Description: This product offers seamless synchronization across multiple devices. Users can easily sync their data, settings, and preferences across devices such as smartphones, tablets, and computers.
+              Description: This product offers seamless synchronization across multiple devices.
             </p>
           </div>
           <div className="mx-auto w-1/2 md:w-1/3">
@@ -47,7 +46,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <Futured_product />
     </>
   )
 }
