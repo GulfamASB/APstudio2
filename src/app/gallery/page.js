@@ -1,14 +1,18 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Gallary = () => {
   return (
     <>
       <div style={{marginBottom:'-6rem'}} className=" bg-slate-100  container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
       <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> Gallary </h1>
+      <p className="mb-4 bg-black bg-opacity-25 text-1xl mb-8 tracking-tight  text-center text-gray-900 dark:text-white"> A Plus Studio has completed some projects. and you can see in our gallery section </p>
   <div className="-m-1 flex flex-wrap md:-m-2">
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP25.jpg" />
@@ -16,7 +20,9 @@ const Gallary = () => {
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg" />
@@ -24,7 +30,9 @@ const Gallary = () => {
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg" />
@@ -32,7 +40,9 @@ const Gallary = () => {
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP7.jpg" />
@@ -40,21 +50,29 @@ const Gallary = () => {
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP4.jpg" />
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
+    <div className="w-full p-1 md:p-2">
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp" />
+          src="/AP26.jpg" />
       </div>
+
+
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a23.jpg" />
@@ -62,7 +80,9 @@ const Gallary = () => {
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg" />
@@ -70,23 +90,33 @@ const Gallary = () => {
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg" />
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
-      <div className="w-full p-1 md:p-2">
-        <img
+      
+
+    <div className="w-full p-1 md:p-2">
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
-          src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp" />
+          src="/AP25.jpg" />
       </div>
+
+
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a20.jpg" />
@@ -94,13 +124,17 @@ const Gallary = () => {
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a21.jpg" />
       </div>
       <div className="w-full p-1 md:p-2">
-        <img
+        <Image
+        width={1000}
+        height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a24.jpg" />
