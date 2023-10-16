@@ -163,7 +163,7 @@ const Products = () => {
                                 width={10000}
                                 height={1000}
                                 alt=""
-                                    src="/AP25.jpg" />
+                                    src="/AP24.jpg" />
               </div>
             </Transition>
 
