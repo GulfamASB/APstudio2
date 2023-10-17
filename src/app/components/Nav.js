@@ -21,7 +21,7 @@ export default function Home() {
                   height={0}
                 />
               </Link>
-              <div className="md:hidden">
+              <div style={{marginTop:'-1.6rem'}} className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
