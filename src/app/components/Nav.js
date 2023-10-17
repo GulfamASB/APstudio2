@@ -8,11 +8,11 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full">
-        <div className="bg-[#292524]  justify-between px-12 mx-auto  md:items-center md:flex">
-          <div>
+      <nav  className="w-full">
+        <div  className="bg-[#292524] justify-between px-12 mx-auto  md:items-center md:flex">
+          <div style={{height:'6rem'}}>
             <div className="flex items-center  justify-between py-3 md:py-4 md:block">
-              <a href="#" className=" h-20 flex items-center">
+              <Link style={{marginTop:'-1.6rem'}} href="/" className=" flex items-center">
                 <Image
                   src="/log2.svg"
                   alt="ecommerce"
@@ -20,7 +20,7 @@ export default function Home() {
                   width={10}
                   height={0}
                 />
-              </a>
+              </Link>
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
