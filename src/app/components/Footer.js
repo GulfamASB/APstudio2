@@ -17,7 +17,7 @@ const Footer = () => {
                         <div className={footerStyles['logo-details']}>
                             {/*<i className={footerStyles.fab fa-slack]></i>*/}
                             <Image
-                                src="/logo.svg"
+                                src="/log2.svg"
                                 alt="ecommerce"
                                 className={footerStyles.logo_name}
                                 width={50}
