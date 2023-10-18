@@ -32,9 +32,9 @@ const hings = () => {
         </div>
         <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
           <div className="mt-10 lg:mt-0  Justify-Content">
-            <h2 className=" relative z-10 my-4 text-dark mb-8 text-3xl font-bold sm:text-4xl text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
-              A PLUS STUDIO
-            </h2>
+            <p className=" relative z-10 my-4 text-dark mb-8 text-3xl font-bold sm:text-4xl text-2xl font-bold  ">
+              .
+            </p>
           </div>
         </div>
       </section>
