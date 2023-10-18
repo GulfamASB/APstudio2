@@ -35,6 +35,7 @@ const Ourteam = () => {
                                 <Image class="rounded-lg drop-shadow-md hover:drop-shadow-xl transition-all duration-200 delay-100"
                                 width={1000}
                                 height={1000}
+                                alt="CEO"
                                     src="/CEO.jpg" />
                             </a>
 

@@ -11,6 +11,7 @@ export const metadata = {
 const Footer = () => {
     return (
         <>
+        <div className='relative z-10'>
             <footer className={footerStyles.footer}>
                 <div className={footerStyles.content}>
                     <div className={footerStyles.top}>
@@ -82,6 +83,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
+            </div>
         </>
     );
 }

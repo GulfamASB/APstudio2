@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from 'next/image'
 import Formdetails from '../../formdetails/page'
+import Productguide from '@/app/components/Productguide'
 const Products = () => {
   const [currentStep, setCurrentStep] = useState(0);
   const [moving, setMoving] = useState("right");
@@ -66,8 +67,12 @@ const Products = () => {
   }, []);
 
   return (
-    <>
-    <div style={{marginBottom:'-9rem'}} className="py-12 bg-white flex">
+    <div className="py-20">
+          <div>
+  <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white py-2"> Product View </h1>
+  <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-white"> A Plus Studio makes deffrent type of Doors and Wall Cladding. You can see and if you want to order then Order now from A Plus Studio. </p>
+  </div>
+    <div style={{marginBottom:'-9rem'}} className=" bg-white flex">
       <div className=" bg-white flex-1 flex flex-col justify-top items-center py-12 px-4 sm:px-6 ">
       <p style={{marginBottom:'-6rem'}} className=" z-10  bg-black bg-opacity-25 p-5 mb-6 font-light text-white dark:text-gray-400" >
       Modern And Classic Door.
@@ -265,7 +270,8 @@ const Products = () => {
       </div>
     </div>
     <Formdetails />
-    </>
+    <Productguide />
+    </div>
     
   );
 };
