@@ -7,7 +7,7 @@ const about = () => {
   return (
     <>
       <section class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
-        <h1 style={{ color: 'Black', textAlign: 'center', marginBottom: '-4rem', fontSize: '2.5rem', fontWeight: 'bold', fontFamily: 'serif', font: 'extrabold' }} > ABOUT US</h1>
+        <h1 className='py-2' style={{ color: 'Black', textAlign: 'center', marginBottom: '-4rem', fontSize: '2.5rem', fontWeight: 'bold', fontFamily: 'serif', font: 'extrabold' }} > ABOUT US</h1>
         <div class="container px-7 py-24 mx-auto flex flex-wrap">
           <div class="-mx-4 flex flex-wrap items-center justify-between">
             <div class="w-full px-4 lg:w-6/12">

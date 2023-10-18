@@ -67,7 +67,7 @@ const Products = () => {
 
   return (
     <>
-    <div style={{marginBottom:'-9rem'}} className=" bg-white flex">
+    <div style={{marginBottom:'-9rem'}} className="py-12 bg-white flex">
       <div className=" bg-white flex-1 flex flex-col justify-top items-center py-12 px-4 sm:px-6 ">
       <p style={{marginBottom:'-6rem'}} className=" z-10  bg-black bg-opacity-25 p-5 mb-6 font-light text-white dark:text-gray-400" >
       Modern And Classic Door.
@@ -163,7 +163,7 @@ const Products = () => {
                                 width={10000}
                                 height={1000}
                                 alt=""
-                                    src="/AP24.jpg" />
+                                    src="/a24.jpg" />
               </div>
             </Transition>
 

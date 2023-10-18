@@ -5,8 +5,8 @@ import Image from 'next/image';
 const about = () => {
     return (
         <>
-            <section class="flex items-center py-10 bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
-                <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
+            <section class=" flex items-center py-12 bg-stone-100 xl:h-screen font-poppins dark:bg-gray-800 ">
+                <div class="justify-center flex-1 max-w-6xl py-8 mx-auto lg:py-6 md:px-6">
                     <div class="flex flex-wrap ">
                         <div class="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                             <div class="relative z-10 my-4">

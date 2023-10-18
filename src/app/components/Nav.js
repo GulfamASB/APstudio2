@@ -8,20 +8,20 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav  className="w-full">
-        <div  className="bg-[#292524] justify-between px-12 mx-auto  md:items-center md:flex">
+      <nav style={{position:"fixed", zIndex:'20'}} className=" opacity-90 w-full ">
+        <div  className="bg-[#292524] justify-between  px-12 mx-auto  md:items-center md:flex">
           <div style={{height:'6rem'}}>
-            <div className="flex items-center  justify-between py-3 md:py-4 md:block">
+            <div className=" flex items-center  justify-between py-3 md:py-4 md:block">
               <Link style={{marginTop:'-1.6rem'}} href="/" className=" flex items-center">
                 <Image
                   src="/log2.svg"
                   alt="ecommerce"
-                  className="object-cover object-center w-full h-full block"
+                  className=" object-cover object-center w-full h-full block"
                   width={10}
                   height={0}
                 />
               </Link>
-              <div style={{marginTop:'-1.6rem'}} className="md:hidden">
+              <div style={{marginTop:'-1.6rem'}} className=" md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
@@ -61,7 +61,7 @@ export default function Home() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
+              className={`opacity-100 flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                 }`}
             >
               <ul className="items-center  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
@@ -107,7 +107,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-

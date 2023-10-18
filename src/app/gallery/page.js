@@ -4,9 +4,9 @@ import Image from 'next/image'
 const Gallary = () => {
   return (
     <>
-      <div style={{marginBottom:'-6rem'}} className=" bg-slate-100  container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
-      <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> Gallary </h1>
-      <p className="mb-4 bg-black bg-opacity-25 text-1xl mb-8 tracking-tight  text-center text-gray-900 dark:text-white"> A Plus Studio has completed some projects. and you can see in our gallery section </p>
+      <div style={{marginBottom:'-6rem'}} className=" py-12 bg-slate-100  container mx-auto px-5 lg:px-32 lg:pt-12 ">
+      <h1 className="text-4xl mb-0 tracking-tight font-extrabold text-center text-gray-900 dark:text-white py-12"> Gallary </h1>
+      <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-white"> A Plus Studio has completed some projects. and you can see in our gallery section </p>
   <div className="-m-1 flex flex-wrap md:-m-2">
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">

@@ -4,7 +4,7 @@ Image
 const admin = () => {
   return (
     <>
-      <div class="bg-slate-200 flex h-screen">
+      <div class="py-20 relative z-10 bg-slate-200 flex h-screen">
         <aside class="fixed z-50 md:relative">
           <input type="checkbox" class="peer hidden" id="sidebar-open" />
           <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
@@ -12,7 +12,7 @@ const admin = () => {
               <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </label>
-          <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-cyan-400 text-white transition-all md:h-screen md:w-64 lg:w-72">
+          <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-[#a8a29e] text-white transition-all md:h-screen md:w-64 lg:w-72">
             <div class="bg-slate-800 mt-5 py-4 pl-10 md:mt-10">
               <span class="">
                 <span class="mr-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 align-bottom text-2xl font-bold">AP</span>
