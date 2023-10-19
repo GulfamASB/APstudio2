@@ -67,10 +67,10 @@ const Products = () => {
   }, []);
 
   return (
-    <div className="py-20">
+    <div className="py-24">
           <div>
-  <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white py-2"> Product View </h1>
-  <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-white"> A Plus Studio makes deffrent type of Doors and Wall Cladding. You can see and if you want to order then Order now from A Plus Studio. </p>
+  <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-black py-2"> Product View </h1>
+  <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-black"> A Plus Studio makes deffrent type of Doors and Wall Cladding. You can see and if you want to order then Order now from A Plus Studio. </p>
   </div>
     <div style={{marginBottom:'-9rem'}} className=" bg-white flex">
       <div className=" bg-white flex-1 flex flex-col justify-top items-center py-12 px-4 sm:px-6 ">

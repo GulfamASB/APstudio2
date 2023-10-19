@@ -7,8 +7,8 @@ const Product = () => {
     <>
  <div className="bg-white py-10">
   <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-  <h1 className="text-4xl mb-0 tracking-tight font-extrabold text-center text-gray-900 dark:text-white py-2"> Products </h1>
-  <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-white"> A Plus Studio makes deffrent type of Doors and Wall Cladding. You can see and if you want to order then Order now from A Plus Studio. </p>
+  <h1 className="text-4xl mb-0 tracking-tight font-extrabold text-center text-gray-900 dark:text-black py-2"> Products </h1>
+  <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-black"> A Plus Studio makes deffrent type of Doors and Wall Cladding. You can see and if you want to order then Order now from A Plus Studio. </p>
   
     <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
       <div  className="group">
