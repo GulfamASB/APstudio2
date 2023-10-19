@@ -6,7 +6,7 @@ import Link from 'next/link'
 const clip = () => {
   return (
     <>
-      <section className=" relative  z-10 h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
+      <section className=" relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
         <div className=" video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video src=
           "/AP8.mp4"
