@@ -6,7 +6,7 @@ const Services = () => {
 
 
       <div  className=" py-16 bg-[#f4f4f5]">
-        <div className="py-12 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
+        <div className=" mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-black"> About Services</h1>
           <div className="space-y-16">
             <div
