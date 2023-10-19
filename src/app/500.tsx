@@ -1,6 +1,6 @@
 import Link from 'next/link'
  
-const NotFound = () => {
+const Custom500 = () => {
   return (
     <div style={{marginBottom:'-6rem'}}>
     <section>
@@ -198,4 +198,4 @@ const NotFound = () => {
     </div>
   )
 };
-export default NotFound
+export default Custom500
