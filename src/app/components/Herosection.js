@@ -7,11 +7,11 @@ const clip = () => {
   return (
     <>
       <section className=" relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
-        <div className=" video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
+        <div className=" relative z-10 video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video src=
           "/AP8.mp4"
           autoPlay="{true}" loop muted
-          className="absolute z-10 w-auto h-auto
+          className="absolute relative z-10 w-auto h-auto
             min-w-full min-h-full max-w-none">
         </video>
         </div>
