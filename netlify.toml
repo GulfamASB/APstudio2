@@ -1,5 +1,5 @@
 [[redirects]]
-{
+
     from: "/"
     query: {},
     to: "/not-found.tsx"
@@ -7,4 +7,3 @@
     force: false
     conditions: {}
     headers: {}
-}
