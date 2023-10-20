@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/"
+to = "/not-found.tsx"
+status = 404
