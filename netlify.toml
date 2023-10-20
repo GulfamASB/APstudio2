@@ -1,9 +1,7 @@
 [[redirects]]
 
-    from= "/"
-    query= {}
+    from= "/*"
     to= "/not-found.tsx"
     status= 500
-    force= false
-    conditions= {}
-    headers= {}
+
+
