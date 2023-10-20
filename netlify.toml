@@ -1,4 +1,4 @@
 [[redirects]]
-from = "/*"
+from = "/"
 to = "/not-found.tsx"
 status = 404
