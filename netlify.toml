@@ -1,4 +1,8 @@
 [[redirects]]
-from = "/"
-to = "/not-found.tsx"
-status = 500
+    from: "/",
+    query: {},
+    to: "/not-found.tsx",
+    status: 500,
+    force: false,
+    conditions: {},
+    headers: {}
