@@ -2,6 +2,6 @@
 
     from= "/*"
     to= "/not-found.tsx"
-    status= 500
+    status= 400
 
 
