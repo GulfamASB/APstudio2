@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/"
-to = "/not-found"
+to = "/not-found.tsx"
 status = 500
