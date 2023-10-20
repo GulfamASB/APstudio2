@@ -1,10 +1,10 @@
 [[redirects]]
 {
-    from: "/",
+    from: "/"
     query: {},
-    to: "/not-found.tsx",
-    status: 500,
-    force: false,
-    conditions: {},
+    to: "/not-found.tsx"
+    status: 500
+    force: false
+    conditions: {}
     headers: {}
 }
