@@ -34,7 +34,7 @@ const about = () => {
                             <p class="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
                                 A PLUS STUDIO is specialized in manufacturing engineered products.
                                 and It is specialized in manufacturing engineered products, design and installation of residential main gates, railings, shower Cabins,
-                                spiders and stair construction for Residence, Commercial, Industrial, Health Care,
+                                spiders and stair construction for Residence, Commercial, Industrial,
                                 Educational, Governmental work and so on as we believe in creating difference,
                                 by our innovative ideas which then converted into design to make a new product.
                                 Our motto is to provide a complete high quality finished product for your dream project’s architectural division.
