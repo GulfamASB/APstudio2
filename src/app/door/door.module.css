@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
 
 .main_section{
     position: relative;
-    background-image: url("/AP10.jpg");
-    background-size: 90% 90%;
+    background-image: url("/AP26.jpg");
+
    
 }
 
@@ -52,9 +51,9 @@
 }
 
 /*waves effect */
-.custom-shape-divider-top-1697868820 {
+.custom-shape-divider-bottom-1697878009 {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -62,17 +61,16 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-top-1697868820 svg {
+.custom-shape-divider-bottom-1697878009 svg {
     position: relative;
     display: block;
-    width: calc(176% + 1.3px);
-    height: 500px;
+    width: calc(245% + 1.3px);
+    height: 167px;
 }
 
-.custom-shape-divider-top-1697868820 .shape-fill {
+.custom-shape-divider-bottom-1697878009 .shape-fill {
     fill: #FFFFFF;
 }
-
 @media screen and (max-width:768px) {
 
     .hero_content{

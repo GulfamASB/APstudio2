@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Gallary = () => {
   return (
@@ -12,134 +13,160 @@ const Gallary = () => {
   <div className="-m-1 flex flex-wrap md:-m-2">
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+        <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP25.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+      <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+      <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+      <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP7.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+      <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP4.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
     <div className="w-full p-1 md:p-2">
+    <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP26.jpg" />
+          </Link>
       </div>
 
 
       <div className="w-full p-1 md:p-2">
+      <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a23.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+        <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+        <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
       
 
     <div className="w-full p-1 md:p-2">
+    <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP25.jpg" />
+          </Link>
       </div>
 
 
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+      <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a20.jpg" />
+          </Link>
       </div>
     </div>
     <div className="flex w-1/3 flex-wrap">
       <div className="w-full p-1 md:p-2">
+      <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a21.jpg" />
+          </Link>
       </div>
       <div className="w-full p-1 md:p-2">
+      <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
         height={100}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a24.jpg" />
+          </Link>
       </div>
      
     </div>
