@@ -1,5 +1,5 @@
 import dbConn from "@/utils/dbConn";
-import Product from "@/models/products";
+import Product from "../../models/products";
 import { NextResponse } from "next/server";
 
 export async function PUT(request, { params }) {
