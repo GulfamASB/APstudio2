@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Post from '@/app/adminpost/[post]/page'
-import ProductList from '@/app/adminpost/[post]/[productList]/page'
+import {Post}  from '@/app/adminpost/[post]/page'
+import {ProductList} from '@/app/adminpost/[post]/[productList]/page'
 
 const Admin = () => {
   return (
