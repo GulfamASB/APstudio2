@@ -1,8 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Post from '@/app/admindashboard/[post]/page'
-import ProductList from '@/app/admindashboard/[post]/[productList]/page'
+
 
 const Admin = () => {
   return (
@@ -136,9 +135,9 @@ const Admin = () => {
               <p class="mb-6 text-gray-600">Here's is your Products posts....</p>
               <div class="flex flex-wrap gap-x-4 gap-y-8">
               <div class="h-96 w-full rounded-xl bg-white p-10 shadow-md">
-                <Post />
+
               </div>
-              <ProductList/>
+
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
                 </div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
