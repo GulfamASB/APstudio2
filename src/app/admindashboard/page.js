@@ -1,10 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
-Image
-const admin = () => {
+import Link from 'next/link'
+import Post from '@/app/admindashboard/[post]/page'
+import ProductList from '@/app/admindashboard/[post]/[productList]/page'
+
+const Admin = () => {
   return (
     <>
-      <div class="py-20 relative z-10 bg-slate-200 flex h-screen">
+      <div class="py-24 relative z-10 bg-[#fee2e2] flex h-screen">
         <aside class="fixed z-50 md:relative">
           <input type="checkbox" class="peer hidden" id="sidebar-open" />
           <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
@@ -12,10 +15,10 @@ const admin = () => {
               <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </label>
-          <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-[#a8a29e] text-white transition-all md:h-screen md:w-64 lg:w-72">
-            <div class="bg-slate-800 mt-5 py-4 pl-10 md:mt-10">
+          <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-[#450a0a] text-white transition-all md:h-screen md:w-64 lg:w-72">
+            <div class="bg-[#292524] opacity-90 mt-5 py-4 pl-10 md:mt-10">
               <span class="">
-                <span class="mr-1 inline-flex h-8 w-8 items-center justify-center rounded-full bg-blue-600 align-bottom text-2xl font-bold">AP</span>
+                <span class="mr-1 inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#7f1d1d] align-bottom text-2x2 font-bold">AP</span>
                 <span class="text-xl">STUDIO</span>
               </span>
             </div>
@@ -29,23 +32,25 @@ const admin = () => {
                 </button>
               </li>
               <li class="relative">
-                <button class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 font-semibold focus:outline-none">
+                <button class="focus:bg-slate-600  hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 font-semibold focus:outline-none">
                   <span
                   ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
-                    </svg> </span
-                  ><span class="">Transaction</span>
+                    </svg> </span>
+                    <span class="">
+                      <Link href='/'>Add Post</Link>
+                    </span>
                 </button>
                 <svg class="text-slate-200 absolute -right-1 -top-1/2 z-10 hidden h-32 w-8 md:block" xmlns="http://www.w3.org/2000/svg" viewBox="399.349 57.696 100.163 402.081" width="1em" height="4em">
                   <path fill="currentColor" d="M 499.289 57.696 C 499.289 171.989 399.349 196.304 399.349 257.333 C 399.349 322.485 499.512 354.485 499.512 458.767 C 499.512 483.155 499.289 57.696 499.289 57.696 Z" />
                 </svg>
               </li>
               <li class="relative">
-                <button class="focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
+                <button class=" focus:bg-slate-600 hover:bg-slate-600 flex w-full space-x-2 rounded-md px-10 py-4 text-gray-300 focus:outline-none">
                   <span
                   ><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" /></svg></span
-                  ><span class="">Post </span>
+                  ><span class="">Transaction </span>
                 </button>
               </li>
               <li class="relative">
@@ -82,8 +87,8 @@ const admin = () => {
                   width={1000} height={1000} />
               </div>
               <div class="ml-3">
-                <p class="font-medium">Aamir Ahamed</p>
-                <p class="text-sm text-gray-300">CEO of AP Studio</p>
+                <p class="font-medium">Aamir Saifi</p>
+                <p class="text-sm text-gray-300">CEO of A Plus Studio</p>
               </div>
             </div>
           </nav>
@@ -127,11 +132,15 @@ const admin = () => {
           <div class="h-full overflow-hidden pl-10">
             <main id="dashboard-main" class="h-[calc(100vh-10rem)] overflow-auto px-4 py-10">
               Put your content inside of the <main />
-              <h1 class="text-2xl font-black text-gray-800">Good Morning!</h1>
-              <p class="mb-6 text-gray-600">Here's an overview of your monthly transactions.</p>
+              <h1 class="text-2xl font-black text-gray-800">Good Morning! Admin</h1>
+              <p class="mb-6 text-gray-600">Here's is your Products posts....</p>
               <div class="flex flex-wrap gap-x-4 gap-y-8">
-                <div class="h-56 w-72 rounded-xl bg-white p-10 shadow-md"></div>
-                <div class="h-56 w-72 rounded-xl bg-white p-10 shadow-md"></div>
+              <div class="h-96 w-full rounded-xl bg-white p-10 shadow-md">
+                <Post />
+              </div>
+              <ProductList/>
+                <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
+                </div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
@@ -143,5 +152,19 @@ const admin = () => {
     </>
   );
 };
+export async function getServerSideProps(ctx){
+    const cookie = parseCookies(ctx)
+     const user =  cookie.user ? JSON.parse(cookie.user) : ""
+    if(user.role == 'user' || user.role == '' ){
+        const {res} = ctx
+        res.writeHead(302,{Location:"/"})
+        res.end()
+    }
+  
+  
+    return {
+        props:{}
+    }
+  }
 
-export default admin
+export default Admin

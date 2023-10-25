@@ -37,7 +37,7 @@ const Footer = () => {
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Company</li>
                             <li><a href="/">Home</a></li>
-                            <li><a href="/contact">Contact us</a></li>
+                            <li><a href="/contacts">Contact us</a></li>
                             <li><a href="/about">About us</a></li>
                             <li><a href="/gallery">Gallery</a></li>
                             <li><a href="/service">Services</a></li>
