@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Post from '@/app/createproduct/page'
-import ProductList from '@/app/productList/page'
+
 
 const Admin = () => {
   return (
