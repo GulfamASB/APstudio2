@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import Createproduct from './createproduct'
 
 
 const Admin = () => {
@@ -136,6 +136,7 @@ const Admin = () => {
               <p class="mb-6 text-gray-600">Here's is your Products posts....</p>
               <div class="flex flex-wrap gap-x-4 gap-y-8">
               <div class="h-96 w-full rounded-xl bg-white p-10 shadow-md">
+              <Createproduct />
               </div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
                 </div>
