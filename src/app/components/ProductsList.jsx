@@ -19,11 +19,11 @@ const getProducts = async () => {
 };
 
 export default async function ProductsList() {
-  const { Products } = await getProducts();
+  const { Product } = await getProducts();
 
   return (
     <>
-      {Products.map((t) => (
+      {Product.map((t) => (
         <div
           key={t._id}
           className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
