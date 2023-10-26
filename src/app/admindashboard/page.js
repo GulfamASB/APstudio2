@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Createproduct from '../createproduct/page'
-
+import Showproducts from '../components/ProductsList'
 
 const Admin = () => {
   return (
@@ -139,6 +139,7 @@ const Admin = () => {
               <Createproduct />
               </div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
+                  <Showproducts />
                 </div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
