@@ -19,8 +19,8 @@ const getProducts = async () => {
 };
 
 export default async function ProductsList() {
-  const { products } =  await getProducts();
 
+  const {products} = null || await getProducts();
   return (
     <>
       {products.map((t) => (
