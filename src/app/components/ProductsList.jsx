@@ -9,21 +9,21 @@ const getProducts = async () => {
     });
 
     if (!res.ok) {
-      throw new Error("Failed to fetch products");
+      throw new Error("Failed to fetch productsdata");
     }
 
     return res.json();
   } catch (error) {
-    console.log("Error loading products: ", error);
+    console.log("Error loading productsdata: ", error);
   }
 };
 
-export default async function TopicsList() {
-  const { products } = await getProducts();
+export default async function ProductsList() {
+  const { productsdata } = await getProducts();
 
   return (
     <>
-      {products.map((t) => (
+      {productsdata.map((t) => (
         <div
           key={t._id}
           className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
