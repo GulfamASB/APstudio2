@@ -2,7 +2,7 @@ import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
 
-const getProducts = async () => {
+const getTopics = async () => {
   try {
     const res = await fetch("http://localhost:3000/api/products", {
       cache: "no-store",
@@ -18,8 +18,8 @@ const getProducts = async () => {
   }
 };
 
- const ProductsList = async() => {
-  const { products } =  await getProducts();
+export default async function TopicsList() {
+  const { products } = await getTopics();
 
   return (
     <>
@@ -44,4 +44,3 @@ const getProducts = async () => {
     </>
   );
 };
-export default ProductsList
