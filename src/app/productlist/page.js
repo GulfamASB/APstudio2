@@ -1,5 +1,5 @@
 import Link from "next/link";
-import RemoveBtn from "./RemoveBtn";
+import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
 
 const getProducts = async () => {

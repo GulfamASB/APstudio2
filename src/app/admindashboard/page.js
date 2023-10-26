@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Createproduct from '../createproduct/page'
-import Showproducts from '../components/ProductsList'
+import Showproducts from '../productlist/page'
 
 const Admin = () => {
   return (
