@@ -4,7 +4,7 @@ import { HiPencilAlt } from "react-icons/hi";
 
 const getProducts = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/productsapi", {
+    const res = await fetch("http://localhost:3000/api/products", {
       cache: "no-store",
     });
 
@@ -14,7 +14,7 @@ const getProducts = async () => {
 
     return res.json();
   } catch (error) {
-    console.log("Error loading productsapi: ", error);
+    console.log("Error loading products: ", error);
   }
 };
 
