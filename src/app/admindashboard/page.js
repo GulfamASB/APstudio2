@@ -2,11 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Post from '@/app/createproduct/page'
-import ProductList from '@/app/components/ProductsList'
+
 
 const Admin = () => {
   return (
-    <>
+    
       <div class="py-24 relative z-10 bg-[#fee2e2] flex h-screen">
         <aside class="fixed z-50 md:relative">
           <input type="checkbox" class="peer hidden" id="sidebar-open" />
@@ -138,7 +138,7 @@ const Admin = () => {
               <div class="h-96 w-full rounded-xl bg-white p-10 shadow-md">
                 <Post />
               </div>
-              <ProductList/>
+
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
                 </div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
@@ -149,9 +149,6 @@ const Admin = () => {
           </div>
         </div>
       </div>
-    </>
+    
   );
-};
-
-
-export default Admin
+};export default Admin
