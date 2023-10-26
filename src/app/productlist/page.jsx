@@ -2,7 +2,7 @@ import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
 import baseUrl from '@/utils/baseUrl'
-const getProducts = async () => {
+export async function getServerSideProps(context) {
   try {
     const res = await fetch(`${baseUrl}/api/products`,{
       cache: "no-store",
@@ -19,7 +19,7 @@ const getProducts = async () => {
 };
 
 export default async function ProductsList() {
-  const { products } = await getProducts();
+  const { products } = await getServerSideProps();
 
   return (
     <>
