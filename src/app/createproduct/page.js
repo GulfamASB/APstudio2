@@ -15,7 +15,7 @@ const Post = ()=>{
 
      try{
             const mediaUrl =  await imageUpload()
-     const res =  await fetch(`/api/products`,{
+     const res =  await fetch(`/api/productsapi`,{
        method:"POST",
        headers:{
          'Content-Type':'application/json'
