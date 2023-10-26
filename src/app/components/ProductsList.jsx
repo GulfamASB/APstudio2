@@ -14,16 +14,16 @@ const getProducts = async () => {
 
     return res.json();
   } catch (error) {
-    console.log("Error loading products: ", error);
+    console.log("Error loading productsapi: ", error);
   }
 };
 
 export default async function ProductsList() {
-  const { Product } = await getProducts();
+  const { products } = await getProducts();
 
   return (
     <>
-      {Product.map((t) => (
+      {products.map((t) => (
         <div
           key={t._id}
           className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
