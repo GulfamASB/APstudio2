@@ -18,7 +18,7 @@ const getProducts = async () => {
   }
 };
 
-export default async function ProductsList() {
+const ProductsList = async () => {
   const { productsapi } = await getProducts();
 
   return (
@@ -43,4 +43,5 @@ export default async function ProductsList() {
       ))}
     </>
   );
-}
+};
+export default ProductsList
