@@ -2,7 +2,7 @@ import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
 import baseUrl from '@/utils/baseUrl'
-const getTopics = async () => {
+const getProducts = async () => {
   try {
     const res = await fetch(`${baseUrl}/api/products`,{
       cache: "no-store",
@@ -18,8 +18,8 @@ const getTopics = async () => {
   }
 };
 
-export default async function TopicsList() {
-  const { products } = await getTopics();
+export default async function ProductsList() {
+  const { products } = await getProducts();
 
   return (
     <>
