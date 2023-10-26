@@ -2,28 +2,25 @@ import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
 import baseUrl from '@/utils/baseUrl'
-export async function getServerSideProps(context) {
-  try {
+async function getProducts()  {
+
     const res = await fetch(`${baseUrl}/api/products`,{
       cache: "no-store",
     });
 
     if (!res.ok) {
-      throw new Error("Failed to fetch products");
+      // This will activate the closest `error.js` Error Boundary
+      throw new Error('Failed to fetch data')
     }
 
     return res.json();
-  } catch (error) {
-    console.log("Error loading products: ", error);
-  }
-};
+  } 
 
-export default async function ProductsList() {
-  const { products } = await getServerSideProps();
-
+  export default async function Page() {
+    const {products} = await getProducts()
   return (
     <>
-      {products && products.map((t) => (
+      {products.map((t) => (
         <div
           key={t._id}
           className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
