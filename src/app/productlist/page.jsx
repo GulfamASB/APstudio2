@@ -20,6 +20,7 @@ async function getServerSideProps()  {
     const {products} = await getServerSideProps()
   return (
     <>
+    <h1>Products list page</h1>
       {products.map((t) => (
         <div
           key={t._id}
