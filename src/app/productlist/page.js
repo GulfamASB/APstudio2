@@ -20,7 +20,7 @@ const getProducts = async () => {
 
 export default async function ProductsList() {
 
-  const {products} = null || await getProducts();
+  const {products} = false || await getProducts();
   return (
     <>
       {products.map((t) => (
