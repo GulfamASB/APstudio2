@@ -9,21 +9,21 @@ const getProducts = async () => {
     });
 
     if (!res.ok) {
-      throw new Error("Failed to fetch productsapi");
+      throw new Error("Failed to fetch products");
     }
 
     return res.json();
   } catch (error) {
-    console.log("Error loading productsapi: ", error);
+    console.log("Error loading products: ", error);
   }
 };
 
-const ProductsList = async () => {
-  const { productsapi } = await getProducts();
+export default async function TopicsList() {
+  const { products } = await getProducts();
 
   return (
     <>
-      {productsapi.map((t) => (
+      {products.map((t) => (
         <div
           key={t._id}
           className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
@@ -35,7 +35,7 @@ const ProductsList = async () => {
 
           <div className="flex gap-2">
             <RemoveBtn id={t._id} />
-            <Link href={'/'}>
+            <Link href={`/editTopic/${t._id}`}>
               <HiPencilAlt size={24} />
             </Link>
           </div>
@@ -43,5 +43,4 @@ const ProductsList = async () => {
       ))}
     </>
   );
-};
-export default ProductsList
+}
