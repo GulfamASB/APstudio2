@@ -1,11 +1,8 @@
 "use client"
 import Link from 'next/link'
 import {useState} from 'react'
-import {parseCookies} from 'nookies'
-import { useRouter } from "next/navigation";
 
 const Post = ()=>{
-  const router = useRouter()
   const [name,setName] = useState("")
   const [media,setMedia] = useState("")
    const handleSubmit = async (e)=>{
@@ -95,7 +92,6 @@ const Post = ()=>{
           <div class="flex justify-end mt-1">
             <button class="px-6 py-2 leading-5 text-white transition-colors duration-200 transform bg-[#450a0a] rounded-md hover:bg-pink-700 focus:outline-none focus:bg-gray-600
             "type="submit"
-            onClick={() => router.push('/')}
             >Save</button>
           </div>
         </form>
