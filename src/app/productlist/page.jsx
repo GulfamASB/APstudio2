@@ -1,6 +1,5 @@
 import Link from "next/link";
-import RemoveBtn from "../components/RemoveBtn";
-import { HiPencilAlt } from "react-icons/hi";
+
 import baseUrl from '@/utils/baseUrl'
 async function getServerSideProps()  {
 
@@ -32,10 +31,8 @@ async function getServerSideProps()  {
           </div>
 
           <div className="flex gap-2">
-            <RemoveBtn id={t._id} />
-            <Link href={`/`}>
-              <HiPencilAlt size={24} />
-            </Link>
+         
+           
           </div>
         </div>
       ))}
