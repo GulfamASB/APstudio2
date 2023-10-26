@@ -9,21 +9,21 @@ const getProducts = async () => {
     });
 
     if (!res.ok) {
-      throw new Error("Failed to fetch productsdata");
+      throw new Error("Failed to fetch productsapi");
     }
 
     return res.json();
   } catch (error) {
-    console.log("Error loading productsdata: ", error);
+    console.log("Error loading productsapi: ", error);
   }
 };
 
 export default async function ProductsList() {
-  const { productsdata } = await getProducts();
+  const { productsapi } = await getProducts();
 
   return (
     <>
-      {productsdata.map((t) => (
+      {productsapi.map((t) => (
         <div
           key={t._id}
           className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
