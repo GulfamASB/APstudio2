@@ -1,10 +1,11 @@
 import Link from "next/link";
-
+import RemoveBtn from "../components/RemoveBtn";
+import { HiPencilAlt } from "react-icons/hi";
 import baseUrl from '@/utils/baseUrl'
 async function getServerSideProps()  {
 
     const res = await fetch(`${baseUrl}/api/showproduct`,{
-      cache: "no-store",
+     
     });
 
     if (!res.ok) {
@@ -18,9 +19,9 @@ async function getServerSideProps()  {
 
   export default async function Page() {
     const {products} = await getServerSideProps()
+    
   return (
     <>
-    <h1>Products list page</h1>
       {products.map((t) => (
         <div
           key={t._id}
@@ -32,8 +33,10 @@ async function getServerSideProps()  {
           </div>
 
           <div className="flex gap-2">
-         
-           
+            <RemoveBtn id={t._id} />
+            <Link href={`/`}>
+              <HiPencilAlt size={24} />
+            </Link>
           </div>
         </div>
       ))}
