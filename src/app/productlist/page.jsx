@@ -1,5 +1,7 @@
-export const getProduct = async () => {
-    const product = await fetch("http://localhost:3000/api/products", {
+
+
+export const getList = async () => {
+    const product = await fetch("http://localhost:3000/api/showproduct", {
       cache: "force-cache",
     });
     const data = await product.json();
@@ -8,24 +10,24 @@ export const getProduct = async () => {
 
 
 const AdminPage = async () =>{
-  const products = await getProduct();
+  const products = await getList();
   return(
     <div>
-      <h1>Product List Page</h1>
-      {products.map((products)=>(
-        <div key={products.id}>
-          <h1>{products.name}</h1>
+    {products.map((products) => (
+        <div
+          key={products._id}
+          className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
+        >
+          <div>
+            <img className="font-bold text-2xl h-40 " src={products.mediaUrl} alt='' />
+            <div>{products.name}</div>
+          </div>
+
+         
         </div>
       ))}
+       
       </div>
   );
-};
+};export default AdminPage;
 
-//export const getServerSideProps = async () =>{
-//  const data = await fetch("http://localhost:300/api/products")
- // const product = await data.json();
-  //const  products = product.products;
-  //return {props:{products}};
-//};
-
-export default AdminPage;
