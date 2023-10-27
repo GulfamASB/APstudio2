@@ -3,7 +3,7 @@ import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
 const getTopics = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/products", {
+    const res = await fetch("http://localhost:3000/api/showproduct", {
       cache: "no-store",
     });
 
@@ -18,6 +18,7 @@ const getTopics = async () => {
 };
 
 export default async function ProductsList() {
+  
   const { products } = await getTopics();
   return (
     <>
