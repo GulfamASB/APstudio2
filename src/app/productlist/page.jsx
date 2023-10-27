@@ -1,6 +1,4 @@
-
-
-export const getList = async () => {
+ const getList = async () => {
     const product = await fetch("http://localhost:3000/api/showproduct", {
       cache: "force-cache",
     });
