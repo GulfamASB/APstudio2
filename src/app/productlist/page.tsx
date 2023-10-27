@@ -1,7 +1,7 @@
 import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
-const getTopics = async (products) => {
+const getTopics = async () => {
   try {
     const res = await fetch("http://localhost:3000/api/showproduct", {
       cache: "no-store",
