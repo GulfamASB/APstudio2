@@ -4,8 +4,8 @@ import { HiPencilAlt } from "react-icons/hi";
 
 const getTopics = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/products", {
-      cache: "no-store",
+    const res = await fetch('http://localhost:3000/api/showproduct', {
+      cache: 'force-cache',
     });
 
     if (!res.ok) {
@@ -48,7 +48,7 @@ export default async function ProductsList() {
 
 
 export async function getStaticProps(){
-  const res =  await fetch(`https://localhost:3000/api/products`)
+  const res =  await fetch(`http://localhost:3000/api/showproduct`)
   const data = await res.json()
   console.log(products)
   return {
