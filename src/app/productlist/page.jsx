@@ -20,7 +20,7 @@ const getTopics = async () => {
 export default async function ProductsList() {
   const { products } = await getTopics();
   return (
-    <>
+    <div>
       {products.map((t) => (
         <div
           key={t._id}
@@ -39,6 +39,6 @@ export default async function ProductsList() {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
