@@ -43,3 +43,14 @@
 //     </>
 //   );
 // };
+import React from 'react'
+import Product from '@/app/components/Productlist'
+const Test = () => {
+  return (
+    <div>
+      <Product/>
+    </div>
+  )
+}
+
+export default Test
