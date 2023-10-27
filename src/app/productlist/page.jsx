@@ -1,7 +1,7 @@
 
 
-const AdminPage = async () =>{
-  const products = await getList();
+ const AdminPage = async () =>{
+  const products = await getServerSideProps();
   return(
     <div>
     {products.map((products) => (
@@ -21,7 +21,7 @@ const AdminPage = async () =>{
       </div>
   );
 };
-const getList = async () => {
+export async function getServerSideProps() {
   const product = await fetch("http://localhost:3000/api/showproduct", {
     cache: "force-cache",
   });
