@@ -53,7 +53,7 @@ export async function getStaticProps(){
   console.log(products)
   return {
     props:{
-      products:data
+      products:'data',
     }
   }
  }
