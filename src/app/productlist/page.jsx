@@ -1,10 +1,3 @@
- const getList = async () => {
-    const product = await fetch("http://localhost:3000/api/showproduct", {
-      cache: "force-cache",
-    });
-    const data = await product.json();
-    return data.products;
-  };
 
 
 const AdminPage = async () =>{
@@ -27,5 +20,14 @@ const AdminPage = async () =>{
        
       </div>
   );
-};export default AdminPage;
+};
+const getList = async () => {
+  const product = await fetch("http://localhost:3000/api/showproduct", {
+    cache: "force-cache",
+  });
+  const data = await product.json();
+  return data.products;
+};
+
+export default AdminPage;
 
