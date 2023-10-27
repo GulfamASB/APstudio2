@@ -19,7 +19,7 @@ const getTopics = async () => {
 };
 
 export default async function ProductsList() {
-  const { products } = await getTopics();
+  const { products } = await getTopics(props);
   return (
     <>
     <div className="py-24 font-extrabold ">
@@ -53,7 +53,7 @@ export async function getStaticProps(){
   console.log(products)
   return {
     props:{
-      products:'data',
+      products:data,
     },
     revalidate: 60,
   }
