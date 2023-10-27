@@ -1,6 +1,5 @@
 import Link from "next/link";
-import RemoveBtn from "../components/RemoveBtn";
-import { HiPencilAlt } from "react-icons/hi";
+
 const getTopics = async () => {
   try {
     const res = await fetch("http://localhost:3000/api/products", {
@@ -29,13 +28,6 @@ export default async function ProductsList() {
           <div>
             <img className="font-bold text-2xl h-40 " src={t.mediaUrl} alt='' />
             <div>{t.name}</div>
-          </div>
-
-          <div className="flex gap-2">
-            <RemoveBtn id={t._id} />
-            <Link href={`/`}>
-              <HiPencilAlt size={24} />
-            </Link>
           </div>
         </div>
       ))}
