@@ -12,14 +12,14 @@ const getTopics = async () => {
     }
 
     return res.json();
-  } catch (undefined) {
-    console.log("Error loading products: ", undefined);
+  } catch (error) {
+    console.log("Error loading products: ", error);
   }
 };
 
 export default async function ProductsList() {
   
-  const { products } = await getTopics();
+  const { products == undefined } = await getTopics();
   return (
     <>
       {products.map((t) => (
