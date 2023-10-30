@@ -13,11 +13,6 @@ export async function GET() {
   await dbConn();
   const products = await Product.find();
   return NextResponse.json({ products });
-  if(!products){
-    return NextResponse.json({
-      message: "there is no data"
-    })
-  }
 }
 
 export async function DELETE(request) {

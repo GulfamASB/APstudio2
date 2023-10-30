@@ -12,8 +12,8 @@ const getTopics = async () => {
     }
 
     return res.json();
-  } catch (error) {
-    console.log("Error loading products: ", error);
+  } catch (undefined) {
+    console.log("Error loading products: ", undefined);
   }
 };
 
