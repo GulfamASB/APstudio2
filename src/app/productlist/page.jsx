@@ -4,15 +4,15 @@ import { HiPencilAlt } from "react-icons/hi";
 import { NextResponse } from 'next/server'
 const getTopics = async () => {
   try {
-    const NextResponse = await fetch("http://localhost:3000/api/products", {
+    const res = await fetch("http://localhost:3000/api/products", {
       cache: "no-store",
     });
 
-    if (!NextResponse.ok) {
+    if (!res.ok) {
       throw new Error("Failed to fetch products");
     }
 
-    return NextResponse.json();
+    return res.json();
   } catch (error) {
     console.log("Error loading products: ", error);
   }
