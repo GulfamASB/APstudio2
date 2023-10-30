@@ -1,6 +1,7 @@
 import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
+import { NextResponse } from "next/server";
 const getTopics = async () => {
   try {
     const res = await fetch("http://localhost:3000/api/products", {
@@ -18,8 +19,13 @@ const getTopics = async () => {
 };
 
 export default async function ProductsList() {
-  
+
   const { products } = await getTopics();
+  if(!products){
+    return NextResponse.json({
+      message: "there is no data in database"
+    })
+  }
   return (
     <>
       {products.map((t) => (
