@@ -5,7 +5,7 @@ import { NextResponse } from "next/server";
 const getTopics = async () => {
   try {
     const res = await fetch("http://localhost:3000/api/products", {
-      cache: "no-store",
+      cache: "force-cache",
     });
 
     if (!res.ok) {
@@ -18,14 +18,8 @@ const getTopics = async () => {
   }
 };
 
-export default async function ProductsList() {
-
+export default async function Products() {
   const { products } = await getTopics();
-  if(products ===  undefined){
-    return NextResponse.json({
-      message: "there is no data in database"
-    })
-  }
   return (
     <>
       {products.map((t) => (
