@@ -1,7 +1,6 @@
 import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
-import { NextResponse } from 'next/server'
 const getTopics = async () => {
   try {
     const res = await fetch("http://localhost:3000/api/products", {
