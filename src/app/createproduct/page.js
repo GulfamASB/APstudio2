@@ -56,7 +56,7 @@ const Post = ()=>{
         <form onSubmit={(e)=>handleSubmit(e)}>
           <div class="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
             <div>
-              <label class="text-black dark:text-gray-200" for="username">Product Nmae</label>
+              <label class="text-black dark:text-gray-200" for="username">Product Name</label>
               <input 
               value={name} 
               name="name"
