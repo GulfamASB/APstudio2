@@ -5,8 +5,8 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
   await dbConn();
-  const products = await Product.find();
-  return NextResponse.json({ products });
+  const productlist = await Product.find();
+  return NextResponse.json({ productlist });
 }
 
 export async function DELETE(request) {
