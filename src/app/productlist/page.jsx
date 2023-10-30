@@ -21,7 +21,7 @@ const getTopics = async () => {
 export default async function ProductsList() {
 
   const { products } = await getTopics();
-  if(products ==  undefined){
+  if(products ===  undefined){
     return NextResponse.json({
       message: "there is no data in database"
     })
