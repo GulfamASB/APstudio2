@@ -17,7 +17,7 @@ const Product = () => {
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Door</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$48</p>
-        <Link href='/products/1'>
+        <Link href='/products1/1'>
         <button type="button" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Order/View</button>
         </Link>
       </div>
@@ -27,7 +27,7 @@ const Product = () => {
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Door</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$35</p>
-        <Link href='/products/1'>
+        <Link href='/products1/1'>
         <button type="button" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Order/View</button>
         </Link>
       </div>
@@ -37,28 +37,28 @@ const Product = () => {
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Door</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$89</p>
-        <Link href='/products/1'>
+        <Link href='/products1/1'>
         <button type="button" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Order/View</button>
         </Link>
       </div>
-      <Link href="/products/1" className="group">
+      <Link href="/products1/1" className="group">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
           <Image width='1000' height='1000' src="/AP7.jpg" alt="Hand holding black machined steel mechanical pencil with brass tip and top." className="h-full w-full object-cover object-center group-hover:opacity-75"/>
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Door</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$35</p>
-        <Link href='/products/1'>
+        <Link href='/products1/1'>
         <button type="button" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Order/View</button>
         </Link>
       </Link>
 
-      <Link href="/products/1" className="group">
+      <Link href="/products1/1" className="group">
         <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
           <Image width='1000' height='1000' src="/AP7.jpg" alt="Hand holding black machined steel mechanical pencil with brass tip and top." className="h-full w-full object-cover object-center group-hover:opacity-75"/>
         </div>
         <h3 className="mt-4 text-sm text-gray-700">Door</h3>
         <p className="mt-1 text-lg font-medium text-gray-900">$35</p>
-        <Link href='/products/1'>
+        <Link href='/products1/1'>
         <button type="button" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Order/View</button>
         </Link>
       </Link>
