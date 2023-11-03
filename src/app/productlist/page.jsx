@@ -2,9 +2,10 @@ import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
 import { NextResponse } from 'next/server'
+import baseUrl from '@/utils/baseUrl'
 const getTopics = async () => {
   try {
-    const NextResponse = await fetch("http://localhost:3000/api/products", {
+    const NextResponse = await fetch(`${baseUrl}/api/products`,{
       cache: "no-store",
     });
 
