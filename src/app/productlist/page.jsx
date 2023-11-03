@@ -18,8 +18,9 @@ const getTopics = async () => {
 };
 
 export default async function ProductsList() {
+  const productsd = undefined || {}
   const { products } = await getTopics();
-  console.log(products);
+  console.log(productsd );
   return (
     <>
       {products.map((t) => (
