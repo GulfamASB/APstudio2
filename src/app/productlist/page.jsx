@@ -18,7 +18,7 @@ const getTopics = async () => {
 };
 
 export default async function ProductsList() {
-  const { products } =  await getTopics ()|| {}
+  const { products } =  await getTopics ()|| {products}
   return (
     <>
       {products.map((t) => (
