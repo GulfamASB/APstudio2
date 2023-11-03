@@ -1,17 +1,18 @@
 import Link from "next/link";
 import RemoveBtn from "../components/RemoveBtn";
 import { HiPencilAlt } from "react-icons/hi";
+import { NextResponse } from 'next/server'
 const getTopics = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/products", {
+    const NextResponse = await fetch("http://localhost:3000/api/products", {
       cache: "no-store",
     });
 
-    if (!res.ok) {
+    if (!NextResponse.ok) {
       throw new Error("Failed to fetch products");
     }
 
-    return res.json();
+    return NextResponse.json();
   } catch (error) {
     console.log("Error loading products: ", error);
   }
