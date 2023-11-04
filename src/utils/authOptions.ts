@@ -13,12 +13,12 @@ export const authOptions: NextAuthOptions = {
         // Perform database operations
 
         if (
-          credentials?.email === "admin@example.com" &&
-          credentials.password === "admin"
+          credentials?.email === "info@aplusstudio.in" &&
+          credentials.password === "apstudio@2023"
         ) {
           return {
             id: "1",
-            email: "admin@example.com",
+            email: "info@aplusstudio.in",
           };
         }
 
