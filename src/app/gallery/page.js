@@ -9,6 +9,7 @@ const Gallary = () => {
       <div style={{marginBottom:'-4rem'}} className="mx-auto max-w-2xl px-4  py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
   <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> Gallery </h1>
   <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-black"> A Plus Studio has completed some project. you can see in our gallery section. thank you from A Plus Studio. </p>
+  
   </div>
   <div className="-m-1 flex flex-wrap md:-m-2">
     <div className="flex w-1/3 flex-wrap">
