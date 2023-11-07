@@ -25,14 +25,14 @@ export default async function ProductsList() {
     <p className="text-1xl mb-9 tracking-tight  text-center text-gray-900"> A Plus Studio has completed some project. you can see in our gallery section. thank you from A Plus Studio. </p>
   </div>
     <div style={{marginBottom:'-6rem'}} className="py-24 w-screen bg-[#fee2e2] flex items-center justify-center flex-wrap">
-      {products && products.map((t) => (
+      {products && products.map((products) => (
         <div
-          key={t._id}
+          key={products._id}
           className="p-4 border border-slate-300 my-3 flex justify-between  items-start"
         >
           <div>
-          <Link href={`/test/id`}>
-            <img className="h-96 w-full rounded-xl bg-white p-10 shadow-md " src={t.mediaUrl} alt='' />
+          <Link href={`/test/${products._id}`}>
+            <img className="h-96 w-full rounded-xl bg-white p-10 shadow-md " src={products.mediaUrl} alt='' />
             </Link>
           </div>
         </div>
