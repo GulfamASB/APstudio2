@@ -31,10 +31,10 @@ export default async function ProductsList() {
           className="p-4 border border-slate-300 my-3 flex justify-between  items-start"
         >
           <div>
+          <Link href={`/test/id`}>
             <img className="h-96 w-full rounded-xl bg-white p-10 shadow-md " src={t.mediaUrl} alt='' />
+            </Link>
           </div>
-
-
         </div>
       ))}
     </div>
