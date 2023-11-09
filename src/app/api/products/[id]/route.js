@@ -13,6 +13,6 @@ export async function PUT(request, { params }) {
 export async function GET(request, { params }) {
   const { id } = params;
   await dbConn();
-  const topic = await Product.findOne({ _id: id });
-  return NextResponse.json({ topic }, { status: 200 });
+  const products = await Product.findOne({ _id: id });
+  return NextResponse.json({ products }, { status: 200 });
 }

@@ -28,11 +28,11 @@ export default async function ProductsList() {
       {products && products.map((products) => (
         <div
           key={products._id}
-          className="p-4 border border-slate-300 my-3 flex justify-between  items-start"
+          className="p-4   flex justify-between  items-start"
         >
           <div>
-          <Link href={`/test/${products._id}`}>
-            <img className="h-96 w-full rounded-xl bg-white p-10 shadow-md " src={products.mediaUrl} alt='' />
+          <Link href={`/gallry/${products._id}`}>
+            <img className="h-96 w-full rounded-xl  p-10 shadow-md   transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={products.mediaUrl} alt='' />
             </Link>
           </div>
         </div>

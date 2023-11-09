@@ -17,10 +17,8 @@ const getTopics = async (id) => {
 };
 
 export default async function ProductsList({params}) {
-  
-  const  products  =  await getTopics(params.id)|| {}
+  const  {products}  =  await getTopics(params.id)|| {}
   const id = params.id;
-  console.log(products)
   return (
     <>
     <div style={{marginBottom:'-14rem'}} className="bg-[#fee2e2] py-24 mx-auto max-w-2xl px-4  py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
@@ -31,11 +29,10 @@ export default async function ProductsList({params}) {
   
         <div
           key={products._id}
-          className="p-4 border border-slate-300 my-3 flex justify-between  items-start"
+          className="p-4 flex justify-between items-start"
         >
-          <h1>{products.name}</h1>
           <div>    
-            <img className="h-96 w-full rounded-xl bg-white p-10 shadow-md " src={products.mediaUrl} alt='' />
+            <img className="h-auto max-w-full transition-all duration-300 rounded-lg blur-sm hover:blur-none" src={products.mediaUrl} alt='' />
           </div>
         </div>
    

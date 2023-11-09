@@ -1,8 +1,9 @@
 "use client"
 import Link from 'next/link'
 import {useState} from 'react'
-
+import { useRouter } from "next/navigation";
 const Post = ()=>{
+  const router = useRouter();
   const [name,setName] = useState("")
   const [media,setMedia] = useState("")
    const handleSubmit = async (e)=>{
@@ -28,7 +29,10 @@ const Post = ()=>{
      const res2 = await res.json()
      if(res2.error){
        M.toast({html: res2.error,classes:"red"})
-     }else{
+     }
+     if (res.ok){
+      router.refresh();
+    }else{
        M.toast({html: "Product saved",classes:"green"})
      }
      }catch(err){
