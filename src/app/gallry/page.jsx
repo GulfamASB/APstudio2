@@ -1,6 +1,6 @@
 import Link from "next/link";
 import baseUrl from '@/utils/baseUrl'
-const getTopics = async () => {
+const getProducts = async () => {
   try {
     const NextResponse = await fetch(`${baseUrl}/api/products`,{
       cache: "no-store",
@@ -17,7 +17,7 @@ const getTopics = async () => {
 };
 
 export default async function ProductsList() {
-  const { products } =  await getTopics ()|| {}
+  const { products } =  await getProducts ()|| {}
   return (
     <>
     <div style={{marginBottom:'-14rem'}} className="bg-[#fee2e2] py-24 mx-auto max-w-2xl px-4  py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
