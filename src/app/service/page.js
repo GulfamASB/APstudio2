@@ -8,7 +8,7 @@ const Services = () => {
 <main className={heroStyles.main_section}>
 <div  className=" py-24 bg-[#f4f4f5]">
         <div className="relative z-10 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-          <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-black"> About Services</h1>
+          <h1  className=" text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-black"> About Services</h1>
           <div className="space-y-16">
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
@@ -34,6 +34,9 @@ const Services = () => {
           className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
             <h3 className="font-medium text-2xl">Multi-Device Synchronization</h3>
+            <p>
+                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. 
+                </p>
           </div>
           <div className="mx-auto w-1/2 md:w-1/3">
             <Image
