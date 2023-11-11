@@ -33,7 +33,7 @@ export default async function ProductsList() {
         >
           <div>
           <Link href={`/products/${products._id}`}>
-            <img className="h-96 w-full rounded-xl  p-10 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={products.mediaUrl} alt='' />
+            <img className="h-80 w-64 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={products.mediaUrl} alt='' />
             </Link>
               
           <h3 className="mt-4 text-sm text-gray-700">{products.name}</h3>
