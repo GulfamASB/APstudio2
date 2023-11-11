@@ -76,7 +76,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
-                  <Link href="/products1">
+                  <Link href="/products">
                     PRODUCTS
                   </Link>
                 </li>
