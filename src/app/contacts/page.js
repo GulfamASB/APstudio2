@@ -63,29 +63,10 @@ const Contact = () => {
               <label for="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
               <textarea id="message" name="message"  rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
           </div>       
-                  <button type="button" value="Send" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                  <button type="submit" value="Send" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                   Send message</button>
-          <span style={{color:"green"}}>{done && "Thanks for Contacting US"}</span>
+          <h1 style={{color:"green"}}>{done && "Thanks for Contacting US"}</h1>
       </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
           <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
             <div className="flex flex-wrap">
               <div className=" mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
@@ -190,6 +171,6 @@ const Contact = () => {
 
 </>
   )
-}
+};
 
 export default Contact

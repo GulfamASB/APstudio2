@@ -4,6 +4,7 @@ const productsSchema = new Schema(
   {
     name: String,
     mediaUrl: String,
+    code: String,
 
   },
   {
