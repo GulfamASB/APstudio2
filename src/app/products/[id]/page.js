@@ -54,13 +54,13 @@ export default async function ProductsList({params}) {
                   The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. 
                 </p>
               </div>
-        <div className="mx-auto w-1/2 md:w-1/3">
+        <div className=" mx-auto w-1/2 md:w-1/3">
                 <Image
                   src={products.mediaUrl}
                   alt="ecommerce"
                   width={400}
                   height={100}
-                  className="object-none h-48 w-96 ..."
+                  className="object-none  hover:scale-110 transition duration-500 cursor-pointer object-cover h-48 w-96 ..."
                 />
               </div>
               </div>
@@ -80,7 +80,7 @@ export default async function ProductsList({params}) {
               alt="ecommerce"
               width={300}
               height={100}
-              className="object-none h-48 w-96 ..."
+              className="object-none hover:scale-110 transition duration-500 cursor-pointer object-cover h-48 w-96 ..."
             />
           </div>
         </div>
@@ -98,7 +98,7 @@ export default async function ProductsList({params}) {
                   alt="ecommerce"
                   width={400}
                   height={100}
-                  className="object-none h-60 w-80 ..."
+                  className="object-none hover:scale-110 transition duration-500 cursor-pointer object-cover h-60 w-80 ..."
                 />
               </div>
               </div>

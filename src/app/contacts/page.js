@@ -47,24 +47,9 @@ const Contact = () => {
     <div className="container px-6 md:px-12">
       <div
         className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px]">
-        <div className="flex flex-wrap">
-        
+        <div className="flex flex-wrap">       
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-black">Contact Us</h2>
-      <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">If you have any query then you can contect with our team. thank you from A Plus studio.If you have any query then you can contect with our team.</p>
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
+      <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">If you have any query then you can contect with our team. thank you from A Plus studio.If you have any query then you can contect with our team.</p>   
      <form  ref={form}  onSubmit={sendEmail} action="#" className="space-y-8">
          <div>
               <label for="name" name="user_name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>
@@ -77,10 +62,9 @@ const Contact = () => {
           <div className="sm:col-span-2">
               <label for="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
               <textarea id="message" name="message"  rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
-          </div>
-          <button type="submit" value="Send" className="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...  bg-cyan-500 hover:bg-gray-400 text-white font-bold py-2 px-4 border-b-4 border-cyan-700 hover:border-gray-500 rounded">
-                    Send message
-                  </button>
+          </div>       
+                  <button type="button" value="Send" className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                  Send message</button>
           <span style={{color:"green"}}>{done && "Thanks for Contacting US"}</span>
       </form>
 
