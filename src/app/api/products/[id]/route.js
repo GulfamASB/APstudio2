@@ -4,9 +4,9 @@ import { NextResponse } from "next/server";
 
 export async function PUT(request, { params }) {
   const { id } = params;
-  const { newName: name, newMediaUrl: mediaUrl } = await request.json();
+  const { newName: name, newMediaUrl: mediaUrl, newCode: code } = await request.json();
   await dbConn();
-  await Product.findByIdAndUpdate(id, { name, mediaUrl });
+  await Product.findByIdAndUpdate(id, { name, mediaUrl, code });
   return NextResponse.json({ message: "Product updated" }, { status: 200 });
 }
 

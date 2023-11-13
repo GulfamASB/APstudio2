@@ -3,9 +3,9 @@ import Product from "@/models/Products";
 import { NextResponse } from "next/server";
 
 export async function POST(request) {
-  const { mediaUrl, name } = await request.json();
+  const { mediaUrl, name, code } = await request.json();
   await dbConn();
-  await Product.create({ mediaUrl, name });
+  await Product.create({ mediaUrl, name, code });
   return NextResponse.json({ message: "Product Created" }, { status: 201 });
 }
 

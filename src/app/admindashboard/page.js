@@ -135,7 +135,7 @@ const Admin = () => {
               <h1 class="text-2xl font-black text-gray-800">Good Morning! Admin</h1>
               <p class="mb-6 text-gray-600">Here's is your Products posts.... and Products List</p>
               <div class="flex flex-wrap gap-x-4 gap-y-8">
-              <div style={{marginLeft:'-1rem'}} class="h-96 w-full rounded-xl bg-white p-10 shadow-md">
+              <div style={{marginLeft:'-1rem'}} class="h-full w-full rounded-xl bg-white p-10 shadow-md">
               <Createproduct />
               </div>
               

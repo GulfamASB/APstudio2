@@ -41,6 +41,8 @@ export default async function ProductsList({params}) {
             width={1500}
             height={500}
             className=" m-auto  rounded-lg " src={products.mediaUrl} alt='' />
+             <h3 className="text-center mt-1 text-lg font-medium text-gray-900">{products.name}</h3>
+        <p className="text-center mt-0 text-sm font-medium text-gray-900">Code: {products.code}</p>
           </div>
         </div>
          <div className="relative z-10 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">

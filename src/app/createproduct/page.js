@@ -6,6 +6,7 @@ const Post = ()=>{
   const router = useRouter();
   const [name,setName] = useState("")
   const [media,setMedia] = useState("")
+  const [code,setCode] = useState("")
    const handleSubmit = async (e)=>{
      e.preventDefault()
  
@@ -21,6 +22,7 @@ const Post = ()=>{
        body:JSON.stringify({
          name,
          mediaUrl,
+         code,
  
        })
        
@@ -66,6 +68,14 @@ const Post = ()=>{
               name="name"
               id="username" type="text" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-[#d6d3d1] border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
               onChange={(e)=>{setName(e.target.value)}} />
+            </div>
+            <div>
+              <label class="text-black dark:text-gray-200" for="username">Product Code</label>
+              <input 
+              value={code} 
+              name="code"
+              id="code" type="text" class="block w-full px-4 py-2 mt-2 text-gray-700 bg-[#d6d3d1] border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
+              onChange={(e)=>{setCode(e.target.value)}} />
             </div>
             <div>
               <label class="block  text-sm font-medium text-black">

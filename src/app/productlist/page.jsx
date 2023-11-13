@@ -30,8 +30,9 @@ export default async function ProductsList() {
           className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
         >
           <div>
-            <img className="font-bold text-2xl h-40 " src={t.mediaUrl} alt='' />
-            <div>{t.name}</div>
+            <img className=" w-48 font-bold text-2xl h-40 " src={t.mediaUrl} alt='' />
+            <h1 className="font-bold">{t.name}</h1>
+            <h1 className="text-lime-600">{t.code}</h1>
           </div>
 
           <div className="flex gap-2">

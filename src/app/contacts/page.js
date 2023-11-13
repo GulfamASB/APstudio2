@@ -82,7 +82,7 @@ const Contact = () => {
                       Email
                     </p>
                     <p className="text-neutral-500 dark:text-neutral-00">
-                      info@aplusstudio.in
+                      Info@aplusstudio.in
                     </p>
                     <p className="text-neutral-500 dark:text-neutral-200">Monday to Saturday Expected </p>
                         <p className="text-neutral-500 dark:text-neutral-200">response time: 24 hours </p>
