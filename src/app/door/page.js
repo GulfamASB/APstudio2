@@ -4,7 +4,7 @@ import doorstyles from "./door.module.css"
 import Recentproject from '@/app/recentproject/page' 
 const Door = () => {
   return (
-    <>
+    <> 
     <main className={doorstyles.main_section}>
       <section className="  relative z-10 my-4  pt-20  lg:pt-[120px] lg:pb-[90px]">
         <div className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">

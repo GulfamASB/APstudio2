@@ -1,5 +1,6 @@
 import Link from "next/link";
 import baseUrl from '@/utils/baseUrl'
+import Image from 'next/image'
 const getProducts = async () => {
   try {
     const NextResponse = await fetch(`${baseUrl}/api/products`,{
@@ -32,7 +33,10 @@ export default async function ProductsList() {
         >
           <div>
           <Link href={`/gallry/${products._id}`}>
-            <img className="h-96 w-80  rounded-xl  p-10 shadow-md   transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={products.mediaUrl} alt='' />
+            <Image 
+            width={10000}
+            height={10000}
+            className="h-96 w-80  rounded-xl  p-10 shadow-md   transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={products.mediaUrl} alt='' />
             </Link>
           </div>
         </div>

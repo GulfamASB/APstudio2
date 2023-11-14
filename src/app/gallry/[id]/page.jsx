@@ -1,5 +1,6 @@
 import Link from "next/link";
 import baseUrl from '@/utils/baseUrl'
+import Image from 'next/image'
 const getTopics = async (id) => {
   try {
     const NextResponse = await fetch(`${baseUrl}/api/products/${id}`,{
@@ -32,7 +33,10 @@ export default async function ProductsList({params}) {
           className="p-4 flex justify-between items-start"
         >
           <div>    
-            <img className="h-auto max-w-full transition-all duration-300 rounded-lg blur-sm hover:blur-none" src={products.mediaUrl} alt='' />
+            <Image
+            width={1000}
+            height={1000}
+            className="h-auto max-w-full transition-all duration-300 rounded-lg blur-sm hover:blur-none" src={products.mediaUrl} alt='' />
           </div>
         </div>
    

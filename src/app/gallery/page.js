@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Gallary = () => {
   return (
     <>
-      <div style={{marginBottom:'-6rem'}} className=" py-12 bg-slate-100  container mx-auto px-5 lg:px-32 lg:pt-12 ">
+      <div style={{marginBottom:'-6rem'}} className=" py-12 bg-slate-1000  container mx-auto px-5 lg:px-32 lg:pt-12 ">
       <div style={{marginBottom:'-4rem'}} className="mx-auto max-w-2xl px-4  py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
   <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> Gallery </h1>
   <p className="bg-black bg-opacity-25 text-1xl mb-4 tracking-tight  text-center text-gray-900 dark:text-black"> A Plus Studio has completed some project. you can see in our gallery section. thank you from A Plus Studio. </p>
@@ -17,7 +17,7 @@ const Gallary = () => {
         <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP25.jpg" />
@@ -29,7 +29,7 @@ const Gallary = () => {
       <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg" />
@@ -41,7 +41,7 @@ const Gallary = () => {
       <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg" />
@@ -53,7 +53,7 @@ const Gallary = () => {
       <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP7.jpg" />
@@ -65,7 +65,7 @@ const Gallary = () => {
       <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP4.jpg" />
@@ -77,7 +77,7 @@ const Gallary = () => {
     <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP26.jpg" />
@@ -89,7 +89,7 @@ const Gallary = () => {
       <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a23.jpg" />
@@ -101,7 +101,7 @@ const Gallary = () => {
         <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695985485/d706dvjzhwf4us26qafl.jpg" />
@@ -113,7 +113,7 @@ const Gallary = () => {
         <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg" />
@@ -127,7 +127,7 @@ const Gallary = () => {
     <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/AP25.jpg" />
@@ -141,7 +141,7 @@ const Gallary = () => {
       <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a20.jpg" />
@@ -153,7 +153,7 @@ const Gallary = () => {
       <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a21.jpg" />
@@ -163,7 +163,7 @@ const Gallary = () => {
       <Link href={'https://res.cloudinary.com/gulfam123/image/upload/v1695966197/cmcn42org8xcrowk1qlg.jpg'}>
         <Image
         width={1000}
-        height={100}
+        height={1000}
           alt="gallery"
           className="block h-full w-full rounded-lg object-cover object-center"
           src="/a24.jpg" />
