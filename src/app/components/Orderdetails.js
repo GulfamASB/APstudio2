@@ -136,7 +136,9 @@ const Orderform = () => {
                 </label>
             </div>
 
-
+            <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
+          Contact Information
+        </h6>
 
 
 
