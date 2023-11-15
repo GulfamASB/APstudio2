@@ -1,14 +1,15 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Createproduct from '../createproduct/page'
 import ProductList from '@/app/productlist/page'
-
+import {signOut} from 'next-auth/react'
 
 const Admin = () => {
   return (
     
-      <div class="py-24 relative z-10 bg-[#fee2e2] flex h-screen">
+      <div class=" relative z-10 bg-[#fee2e2] flex h-screen">
         <aside class="fixed z-50 md:relative">
           <input type="checkbox" class="peer hidden" id="sidebar-open" />
           <label class="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
@@ -127,11 +128,20 @@ const Admin = () => {
                     </svg>
                   </button>
                 </li>
-                <li>             
+
+                {/*........................signOut admin Pannel*/}
+                <li> 
+                  <Link href='/api/auth/signout'>
                   <button 
+                  onClick={(e)=>{
+                    e.preventDefault()
+                    signOut()
+                  }}
                   type="button" className=" shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Logout
                   </button>                 
-                </li>
+                  </Link>
+               </li>
+              
               </ul>
             </div>
           </header>
