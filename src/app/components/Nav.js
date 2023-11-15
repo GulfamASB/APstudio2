@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <nav style={{position:"fixed", zIndex:'20'}} className=" opacity-90 w-full ">
-        <div  className="bg-gradient-to-r from-red-200 via-red-200 to-yellow-200 hover:bg-gradient-to-bl justify-between  px-12 mx-auto  md:items-center md:flex">
+        <div  className="bg-[#292524] justify-between  px-12 mx-auto  md:items-center md:flex">
           <div style={{height:'6rem'}}>
             <div className=" flex items-center  justify-between py-3 md:py-4 md:block">
               <Link style={{marginTop:'-1.6rem'}} href="/" className=" flex items-center">
