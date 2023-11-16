@@ -24,14 +24,15 @@ export default async function ProductsList({params}) {
   const id = params.id;
   return (
     <>
-    <div style={{marginBottom:'-14rem'}} className="bg-[#ffff] py-24 mx-auto max-w-2xl px-4  py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+    <div className="bg-gradient-to-r from-violet-100 to-pink-100 ">
+    <div style={{marginBottom:'-14rem'}} className=" py-24 mx-auto max-w-2xl px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
     <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> PRODUCT VIEW/ORDER </h1>
     <p className="text-1xl mb-9 tracking-tight  text-center text-gray-900"> A Plus Studio has completed some project. you can see in our gallery section. thank you from A Plus Studio. </p>
     <div  class="items-center justify-center bg-opacity-40 relative  bg-black text-white ">
        <h1 className="text-2xl text-center">We provides good and perfect products for you. </h1>
     </div>
   </div>
-    <div style={{marginBottom:'-6rem'}} className="py-24  bg-[#ffff] flex items-center justify-center flex-wrap">
+    <div style={{marginBottom:'-6rem'}} className="py-24 flex items-center justify-center flex-wrap">
         <div
           key={products._id}
           className="p-4 items-start"
@@ -107,6 +108,7 @@ export default async function ProductsList({params}) {
               
     <Formdetails />
     <Productguide />
+    </div>
     </>
   );
 };

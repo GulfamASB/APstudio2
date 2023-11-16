@@ -23,7 +23,7 @@ export default async function ProductsList() {
   const { products } =  await getProducts ()|| {}
   return (
     <>
-      <div style={{marginBottom:'-6rem'}} className="bg-[#fee2e2] py-12  px-5 p-10 lg:px-320 lg:pt-12 ">
+      <div style={{marginBottom:'-6rem'}} className="bg-gradient-to-r from-violet-100 to-pink-100  py-12  px-5 p-10 lg:px-320 lg:pt-12 ">
       <div style={{marginBottom:'-4rem'}} className=" mx-auto max-w-2xl   py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         
   <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> Gallery </h1>

@@ -21,12 +21,12 @@ export default async function ProductsList() {
   const { products } =  await getProducts ()|| {}
   return (
     <>
-    <div style={{marginBottom:'-14rem'}} className="bg-[#fee2e2] py-24 mx-auto    ">
+    <div style={{marginBottom:'-14rem'}} className="bg-gradient-to-r from-violet-100 to-pink-100  py-24 mx-auto    ">
     <h1 className="text-4xl tracking-tight font-extrabold text-center text-gray-900 text-black py-2"> Products </h1>
     <p className="text-1xl mb-9 tracking-tight text-center text-gray-900 "> A Plus Studio makes deffrent type of Doors and Wall Cladding. You can see and if you want to order then Order now from A Plus Studio. </p>
   
   </div>
-    <div style={{marginBottom:'-6rem'}} className="py-24 w-screen bg-[#fee2e2] flex items-center justify-center flex-wrap">
+    <div style={{marginBottom:'-6rem'}} className="py-24 w-screen bg-gradient-to-r from-violet-100 to-pink-100  flex items-center justify-center flex-wrap">
       {products && products.map((products) => (
         <div
           key={products._id}

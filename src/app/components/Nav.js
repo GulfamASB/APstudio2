@@ -8,7 +8,7 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav style={{position:"fixed", zIndex:'20'}} className=" opacity-90  w-full ">
+      <nav style={{position:"fixed", zIndex:'20'}} className=" opacity-95  w-full ">
         <div  className="bg-[#292524]  justify-between   px-12 mx-auto  md:items-center md:flex">
           <div>
             <div className=" flex items-center h-24 justify-between   md:block">
