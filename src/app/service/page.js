@@ -6,7 +6,7 @@ const Services = () => {
   return (
     <>
 <main style={{marginBottom: '-9rem'}} className={heroStyles.main_section}>
-<div  className=" py-24 bg-[#f4f4f5]  ">
+<div  className=" py-24 bg-[#f4f4f5] ">
         <div className="relative z-10 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto ">
           <h1  className=" text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-black"> About Services</h1>
           <div className="space-y-16">

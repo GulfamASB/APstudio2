@@ -5,7 +5,7 @@ const Ourteam = () => {
   return (
     <>
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css"></link>
-      <div class="flex items-center justify-center min-h-screen bg-white py-48">
+      <div class="flex items-center justify-center min-h-screen bg-white py-24">
     <div class="flex flex-col">
 
         <div class="flex flex-col mt-8">
@@ -20,7 +20,7 @@ const Ourteam = () => {
                         </h1>
 
                         <p class="text-gray-700 text-lg font-light">
-                            With over 100 years of combined experience, we've got a well-seasoned team at the helm.
+                            With over 40 years of combined experience, we've got a well-seasoned team at the helm.
                         </p>
                     </div>
                 </div>

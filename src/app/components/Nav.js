@@ -8,20 +8,20 @@ export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav style={{position:"fixed", zIndex:'20'}} className=" opacity-90 w-full ">
-        <div  className="bg-[#292524] justify-between  px-12 mx-auto  md:items-center md:flex">
-          <div style={{height:'6rem'}}>
-            <div className=" flex items-center  justify-between py-3 md:py-4 md:block">
-              <Link style={{marginTop:'-1.6rem'}} href="/" className=" flex items-center">
+      <nav style={{position:"fixed", zIndex:'20'}} className=" opacity-90  w-full ">
+        <div  className="bg-[#292524]  justify-between   px-12 mx-auto  md:items-center md:flex">
+          <div>
+            <div className=" flex items-center h-24 justify-between   md:block">
+              <Link  href="/" className="  items-center">
                 <Image
                   src="/log2.svg"
                   alt="ecommerce"
-                  className=" object-cover object-center w-full h-full block"
+                  className="object-cover object-center w-full h-full block"
                   width={10}
                   height={0}
                 />
               </Link>
-              <div style={{marginTop:'-1.6rem'}} className=" md:hidden">
+              <div  className=" md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
