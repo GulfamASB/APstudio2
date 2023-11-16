@@ -64,40 +64,40 @@ export default function Home() {
               className={`opacity-100 flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
                 }`}
             >
-              <ul className="items-center  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
+              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                <li className="text-white text-xl font-bold hover:text-red-200 mr-4 my-auto  ">
                   <Link href="/">
-                    HOME
+                    Home
                   </Link>
                 </li>
-                <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
+                <li className="text-white text-xl font-bold hover:text-red-200 mr-4 my-auto  ">
                   <Link href="/service">
-                    SERVICES
+                    Services
                   </Link>
                 </li>
-                <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
+                <li className="text-white text-xl font-bold hover:text-red-200 mr-4 my-auto  ">
                   <Link href="/products">
-                    PRODUCTS
+                    Products
                   </Link>
                 </li>
-                <li className="text-white font-bold hover:text-cyan-600 mr-4 my-auto  ">
+                <li className="text-white text-xl font-bold hover:text-red-200 mr-4 my-auto  ">
                   <Link href="/about">
-                    ABOUT US
+                    About us
                   </Link>
                 </li>
-                <li className="text-white font-bold  hover:text-cyan-600 mr-4 my-auto    " >
+                <li className="text-white text-xl font-bold  hover:text-red-200 mr-4 my-auto    " >
                   <Link href="/contacts">
-                    CONTACT US
+                    Contact us
                   </Link>
                 </li>
-                <li className="text-white font-bold  hover:text-cyan-600 mr-4 my-auto    " >
+                <li className="text-white text-xl font-bold  hover:text-red-200 mr-4 my-auto    " >
                   <Link href="/ourteam">
-                    OURTEAM
+                    Ourteam
                   </Link>
                 </li>
-                <li className="text-white font-bold  hover:text-cyan-600 mr-4 my-auto    " >
+                <li className="text-white text-xl font-bold  hover:text-red-200 mr-4 my-auto    " >
                   <Link href="/gallery">
-                    GALLERY
+                    Gallery
                   </Link>
                 </li>
                 <li className="text-white">

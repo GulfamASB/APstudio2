@@ -11,7 +11,7 @@ const Door = () => {
         <div className="space-y-15">
           <div
             className=" relative z-10 my-4 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
-            <div style={{ marginTop: '-2rem' }} className=" text-justify  text-white w-full md:w-1/3 space-y-4">
+            <div style={{ marginTop: '-2rem' }} className=" text-justify text-white w-full md:w-1/3 space-y-4">
               <p className='font-light' style={{ marginLeft: 20, marginRight: 20 }}>
               We provide wall cladding and we offer a comprehensive range of profiles, built-up systems and structural liner trays, to meet all your cladding requirements.
               </p>

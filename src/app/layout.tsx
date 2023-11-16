@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{fontFamily:'inherit'}} className={inter.className}>
+      <body style={{fontFamily:'bodoni mt'}} className={inter.className}>
         <Nav />
         {children}
       <Footer/>
