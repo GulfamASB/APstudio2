@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Createproduct from '../createproduct/page'
 import ProductList from '@/app/productlist/page'
+import Showorderdetails from '@/app/showorderdetails/page'
 import {signOut} from 'next-auth/react'
 
 const Admin = () => {
@@ -157,8 +158,14 @@ const Admin = () => {
               
               <ProductList />
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
+                <h1 class="text-2xl font-black text-gray-800 ">Messages !</h1>
+                <p class="mb-1 text-gray-600 ">These are the Personal information of Custumers</p>
+                <p class=" text-gray-600 ">structure of the Messages: Name:, Email:, Phone:, Address:</p>
                 </div>
-                <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
+                <Showorderdetails />
+                <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
+                
+                </div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
               </div>
