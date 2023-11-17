@@ -1,5 +1,5 @@
 import dbConn from "@/utils/dbConn";
-import Formdetails from "@/models/formdetails";
+import Formdetail from "@/models/formdetails";
 import { NextResponse } from "next/server";
 
 export async function POST(req, res) {
@@ -7,7 +7,7 @@ export async function POST(req, res) {
 
         const body = await req.json();
         await dbConn();
-        await Formdetails.create(body);
+        await Formdetail.create(body);
         return NextResponse.json({
             message: "Message sent successfully!"
         }, {
@@ -20,3 +20,19 @@ export async function POST(req, res) {
         )
     }
 }
+
+
+export async function GET() {
+    await dbConn();
+    const formdetails = await Formdetail.find();
+    return NextResponse.json({ formdetails });
+  }
+  
+  export async function DELETE(request) {
+    const id = request.nextUrl.searchParams.get("id");
+    await dbConn();
+    await Formdetail.findByIdAndDelete(id);
+    return NextResponse.json({ message: "Formdetail deleted" }, { status: 200 });
+  }
+  
+
