@@ -10,15 +10,11 @@ const mulish = Mulish({
 })
 const Orderform = () => {
     const [user, setUser] = useState({
+        custumer_name: "",
         productname: "",
         code: "",
         quantity: "",
         size: "",
-
-
-
-
-
         message: ""
     })
     const [status, setStatus] = useState(null);
@@ -38,27 +34,22 @@ const Orderform = () => {
                 method: 'POST',
                 headers: { "Content_Type": "application/json" },
                 body: JSON.stringify({
+                    custumer_name: user.custumer_name,
                     productname: user.productname,
                     code: user.code,
                     quantity: user.quantity,
                     size: user.size,
-
-
-
-
                     message: user.message
                 })
             })
             // Set the status based on the response from the API route
             if (response.status === 200) {
                 setUser({
+                    custumer_name: "",
                     productname: "",
                     code: "",
                     quantity: "",
                     size:"",        
-
-
-
                     message: ""
                 })
                 setStatus('success');
@@ -72,9 +63,21 @@ const Orderform = () => {
     }
     return (
         <form className={styles.contact_form} onSubmit={handleSubmit}>
+             <div className={styles.input_field}>
+             <label htmlFor="custumer_name" className={styles.label}>
+                    Enter your name
+                    <input type="text" name="custumer_name" id="custumer_name"
+                        placeholder="name"
+                        className={mulish.className}
+                        value={user.custumer_name}
+                        onChange={handleChange}
+                        required
+                    />
+                </label>
+            </div>
             <div className={styles.input_field}>
                 <label htmlFor="productname" className={styles.label}>
-                    Enter your Product name
+                    Enter Product name
                     <input type="text" name="productname" id="productname"
                         placeholder="product name"
                         className={mulish.className}
@@ -84,8 +87,7 @@ const Orderform = () => {
                     />
                 </label>
             </div>
-
-            <div className={styles.input_field}>
+          <div className={styles.input_field}>
                 <label htmlFor="code" className={styles.label}>
                    Product Code Number
                     <input type="text" name="code" id="code"

@@ -1,5 +1,5 @@
 import dbConn from "@/utils/dbConn";
-import Orderdetails from "@/models/orderdetails";
+import Orderdetail from "@/models/orderdetails";
 import { NextResponse } from "next/server";
 
 export async function POST(req, res) {
@@ -7,7 +7,7 @@ export async function POST(req, res) {
 
         const body = await req.json();
         await dbConn();
-        await Orderdetails.create(body);
+        await Orderdetail.create(body);
         return NextResponse.json({
             message: "Message sent successfully!"
         }, {
@@ -20,3 +20,17 @@ export async function POST(req, res) {
         )
     }
 }
+
+export async function GET() {
+    await dbConn();
+    const orderdetails = await Orderdetail.find();
+    return NextResponse.json({ orderdetails });
+  }
+  
+  export async function DELETE(request) {
+    const id = request.nextUrl.searchParams.get("id");
+    await dbConn();
+    await Orderdetail.findByIdAndDelete(id);
+    return NextResponse.json({ message: "Orderdetail deleted" }, { status: 200 });
+  }
+  

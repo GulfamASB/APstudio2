@@ -14,7 +14,7 @@ const about = () => {
                                     width={1000} height={1000}
                                     className="relative z-40 object-cover w-full h-100 lg:rounded-tr-[80px] lg:rounded-bl-[80px] rounded" />
                                 <div
-                                    className="absolute z-10 hidden w-full h-full bg-blue-400 rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
+                                    className="absolute z-10 hidden w-full h-full bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 rounded-bl-[80px] rounded -bottom-6 right-6 lg:block">
                                 </div>
                                 <div
                                     className="absolute z-50 text-blue-400 transform -translate-y-1/2 cursor-pointer top-1/2 left-[46%] hover:text-blue-500">

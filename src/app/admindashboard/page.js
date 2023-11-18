@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Createproduct from '../createproduct/page'
 import ProductList from '@/app/productlist/page'
+import Showformdetails from '@/app/showformdetails/page'
 import Showorderdetails from '@/app/showorderdetails/page'
 import {signOut} from 'next-auth/react'
 
@@ -19,10 +20,18 @@ const Admin = () => {
             </svg>
           </label>
           <nav aria-label="Sidebar Navigation" class="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-[#450a0a] text-white transition-all md:h-screen md:w-64 lg:w-72">
-            <div class="bg-[#292524] opacity-90 mt-5 py-4 pl-10 md:mt-10">
+            <div class="bg-[#292524]  opacity-50 mt-5 py-4 pl-10 md:mt-10">
               <span class="">
-                <span class="mr-1 inline-flex h-10 w-10 items-center justify-center rounded-full bg-[#7f1d1d] align-bottom text-2x2 font-bold">AP</span>
-                <span class="text-xl">STUDIO</span>
+             
+                <Image
+                  src="/log2.svg"
+                  alt="ecommerce"
+                  className="object-cover object-center w-20 h-20 "
+                  width={0}
+                  height={0}
+                />
+            
+               
               </span>
             </div>
             <ul class="mt-8 space-y-3 md:mt-20">
@@ -86,12 +95,12 @@ const Admin = () => {
             </ul>
             <div class="my-6 mt-auto ml-10 flex cursor-pointer">
               <div>
-                <Image alt="" class="h-12 w-12 rounded-full" src="/CEO.jpg"
+                <Image alt="" class="h-12 w-12 rounded-full" src="/AP4.jpg"
                   width={1000} height={1000} />
               </div>
               <div class="ml-3">
-                <p class="font-medium">Aamir Saifi</p>
-                <p class="text-sm text-gray-300">CEO of A Plus Studio</p>
+                <p class="font-medium">A Plus Studio</p>
+                <p class="text-sm text-gray-300">A Plus Studio.</p>
               </div>
             </div>
           </nav>
@@ -154,18 +163,19 @@ const Admin = () => {
               <div class="flex flex-wrap gap-x-4 gap-y-8">
               <div style={{marginLeft:'-1rem'}} class="h-full w-full rounded-xl bg-white p-10 shadow-md">
               <Createproduct />
-              </div>
-              
+              </div>              
               <ProductList />
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
                 <h1 class="text-2xl font-black text-gray-800 ">Messages !</h1>
                 <p class="mb-1 text-gray-600 ">These are the Personal information of Custumers</p>
                 <p class=" text-gray-600 ">structure of the Messages: Name:, Email:, Phone:, Address:</p>
                 </div>
-                <Showorderdetails />
+                <Showformdetails />
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md">
-                
+                <h1 class="text-2xl font-black text-gray-800 ">Order_Details !</h1>
+                <p class="mb-1 text-gray-600 ">These are the Order Details of Custumers's product</p>
                 </div>
+                <Showorderdetails/>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
                 <div class="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
               </div>

@@ -5,5 +5,5 @@ export function middleware(request) {
 }
  
 export const config = {
-  matcher: ['/createproduct/:path*', '/productlist/:path*', '/admindashboard/:path*']
+  matcher: ['/createproduct/:path*', '/productlist/:path*', '/admindashboard/:path*', '/showformdetails/:path*', '/showorderdetails/:path*']
 }

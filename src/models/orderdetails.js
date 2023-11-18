@@ -2,6 +2,10 @@ import mongoose from "mongoose";
 //create a schema
 const orderdetailsSchema = new mongoose.Schema(
     {
+        custumer_name:  {
+            type: String,
+            required: true,
+        },
         productname: {
             type: String,
             required: true,
