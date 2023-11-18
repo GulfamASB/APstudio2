@@ -5,7 +5,7 @@ import Footer from './components/Footer'
 import Nav from "./components/Nav"
 
 
-const roboto = Roboto({ weight:'300', subsets: ['latin'] })
+const roboto = Roboto({ weight:'100', subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'A Plus Studio',
