@@ -24,10 +24,10 @@ const about = () => {
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0 ">
                             <div className="relative">
                                 <h1
-                                    className="absolute-top-20   left-0 text-[20px] lg:text-[100px] text-gray-1000 font-bold  dark:text-gray-200 opacity-30 md:block ">
+                                    className="absolute-top-20   left-0 text-[20px] lg:text-[100px] text-gray-1000 font-bold  dark:text-gray-300 opacity-40 md:block ">
                                     About Us
                                 </h1>
-                                <h1 className="pl-2 text-3x1 font-bold border-l-8 border-blue-400 md:text-5xl dark:text-white">
+                                <h1 className="pl-2 text-3x1 font-bold border-l-8 border-blue-400 md:text-5xl dark:text-black">
                                     <div className={Styles.writertext}>Welcome To Our Site</div>
                                 </h1>
                             </div>
