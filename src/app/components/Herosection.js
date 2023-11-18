@@ -1,13 +1,11 @@
 import React from 'react'
 import Image from "next/image"
 import Link from 'next/link'
-import { Chonburi } from 'next/font/google'
-const chonburi = Chonburi({weight:'400',  subsets: ['latin'] })
+
 
 const clip = () => {
   return (
     <>
-    <div className={chonburi.className}>
       <section className=" relative h-screen flex flex-col items-center justify-center text-center text-white py-0 px-3">
         <div className=" video-docker absolute top-0 left-0 w-full h-full overflow-hidden">
         <video src=
@@ -35,7 +33,7 @@ const clip = () => {
         </svg>
     </div>
       </section>
-</div>
+
     </>
   )
 }
