@@ -1,8 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import { Chonburi } from 'next/font/google'
 import Footer from './components/Footer'
 import Nav from "./components/Nav"
 
+
+const chonburi = Chonburi({weight:'400',  subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'A Plus Studio',
@@ -16,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body  style={{fontFamily:'bodoni_mt'}}>
+      <body  className={chonburi.className}>
         <Nav />
         {children}
       <Footer/>
