@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body  style={{fontFamily:'bodoni mt'}}>
+      <body  style={{fontFamily:'bodoni_mt'}}>
         <Nav />
         {children}
       <Footer/>
