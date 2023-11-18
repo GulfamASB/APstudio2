@@ -1,11 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Roboto } from 'next/font/google'
+import { Libre_Bodoni } from 'next/font/google'
 import Footer from './components/Footer'
 import Nav from "./components/Nav"
 
 
-const roboto = Roboto({ weight:'900', subsets: ['latin'] })
+const roboto = Libre_Bodoni({  subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'A Plus Studio',
