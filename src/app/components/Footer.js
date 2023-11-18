@@ -11,6 +11,7 @@ export const metadata = {
 const Footer = () => {
     return (
         <>
+         <h1 className={footerStyles.testFont}>Hello Geeks</h1>
         <div className='relative z-10'>
             <footer className={footerStyles.footer}>
                 <div className={footerStyles.content}>

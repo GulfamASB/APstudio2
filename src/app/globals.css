@@ -1,6 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body, html{
-    font-family: 'bodoni mt', sans-serif;
-    }
+
+
+
+@font-face { 
+    font-family: "Rubik"; 
+    src: url('https://fonts.google.com/specimen/Rubik'); 
+    font-weight: normal; 
+    font-style: normal; 
+  } 
+    
+  @font-face { 
+    font-family: "Rubik"; 
+    src: url('https://fonts.google.com/specimen/Rubik'); 
+    font-weight: bold; 
+    font-style: normal; 
+  } 
+    
+  @font-face { 
+    font-family: "Rubik"; 
+    src: url('https://fonts.google.com/specimen/Rubik'); 
+    font-weight: normal; 
+    font-style: italic; 
+  }
