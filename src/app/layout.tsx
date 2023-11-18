@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html style={{fontFamily:'bodoni mt'}} lang="en">
+    <html  lang="en">
       <body >
         <Nav />
         {children}
