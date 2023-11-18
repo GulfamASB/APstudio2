@@ -6,21 +6,21 @@
 
 @font-face { 
     font-family: "Rubik"; 
-    src: url('https://fonts.google.com/specimen/Rubik'); 
+    src: url('https://learn.microsoft.com/en-us/typography/font-list/bodoni-mt'); 
     font-weight: normal; 
     font-style: normal; 
   } 
     
   @font-face { 
     font-family: "Rubik"; 
-    src: url('https://fonts.google.com/specimen/Rubik'); 
+    src: url('https://learn.microsoft.com/en-us/typography/font-list/bodoni-mt'); 
     font-weight: bold; 
     font-style: normal; 
   } 
     
   @font-face { 
     font-family: "Rubik"; 
-    src: url('https://fonts.google.com/specimen/Rubik'); 
+    src: url('https://learn.microsoft.com/en-us/typography/font-list/bodoni-mt'); 
     font-weight: normal; 
     font-style: italic; 
   }
