@@ -1,13 +1,16 @@
+"use client"
 import React from 'react';
-
-import { text } from 'stream/consumers';
 import Image from "next/image";
-
+import { motion } from "framer-motion"
+const variants = {
+  hidden: { opacity: 0, x: -200, y: 0 },
+  enter: { opacity: 1, x: 0, y: 0 },
+}
 const about = () => {
   return (
     <>
       <section class="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px]">
-        <h1 className='py-2' style={{ color: 'Black', textAlign: 'center', marginBottom: '-4rem', fontSize: '2.5rem', fontWeight: 'bold', fontFamily: 'serif', font: 'extrabold' }} > ABOUT US</h1>
+        <h1 className='py-2' style={{ color: 'Black', textAlign: 'center', marginBottom: '-6rem', fontSize: '2.5rem', fontWeight: 'bold', fontFamily: 'serif', font: 'extrabold' }} > ABOUT US</h1>
         <div class="container px-7 py-24 mx-auto flex flex-wrap">
           <div class="-mx-4 flex flex-wrap items-center justify-between">
             <div class="w-full px-4 lg:w-6/12">
@@ -50,9 +53,16 @@ const about = () => {
                 <span class="text-primary mb-2 block text-lg font-semibold wrapper">
                   Why Choose Us
                 </span>
+                <motion.main
+      variants={variants}
+      initial="hidden"
+      animate="enter"
+      transition={{ type: "linear" }}
+    >
                 <h2 class="text-dark mb-8 text-3xl font-bold sm:text-4xl text-2xl font-bold bg-gradient-to-r from-orange-700 via-blue-500 to-green-400 text-transparent bg-clip-text animate-gradient">
                   A PLUS STUDIO is specialized in manufacturing engineered products
                 </h2>
+              
                 <p class="text-body-color mb-8 text-base text-justify">
                   It is specialized in manufacturing engineered products, design and installation of residential main gates, railings, shower Cabins,
                   spiders and stair construction for Residence, Commercial, Industrial, Health Care,
@@ -66,6 +76,7 @@ const about = () => {
                   The organizations segments include sustainability, workforce relations, and business intelligence with honesty.
                   Our innovative, self designed and fabricated products improve the quality of life with a new passion of style.
                 </p>
+                </motion.main>
               </div>
             </div>
           </div>

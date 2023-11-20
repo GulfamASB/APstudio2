@@ -1,10 +1,18 @@
+"use client"
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Styles from './about.module.css'
+import { motion } from "framer-motion"
+
+const variants = {
+  hidden: { opacity: 0, x: -200, y: 0 },
+  enter: { opacity: 1, x: 0, y: 0 },
+}
 const about = () => {
     return (
         <>
+       
             <section style={{ marginBottom: '-6rem' }} className=" flex items-center py-12 bg-gradient-to-r from-violet-100 to-pink-100 xl:h-screen font-poppins dark:bg-gray-800 ">
                 <div className="justify-center flex-1 max-w-6xl py-8 mx-auto lg:py-6 md:px-6">
                     <div className="flex flex-wrap ">
@@ -31,6 +39,12 @@ const about = () => {
                                     <div className={Styles.writertext}>Welcome To Our Site</div>
                                 </h1>
                             </div>
+                            <motion.main
+      variants={variants}
+      initial="hidden"
+      animate="enter"
+      transition={{ type: "linear" }}
+    >
                             <p className="mt-6 mb-10 text-base leading-7 text-gray-500 dark:text-gray-400">
                                 A PLUS STUDIO is specialized in manufacturing engineered products.
                                 and It is specialized in manufacturing engineered products, design and installation of residential main gates, railings, shower Cabins,
@@ -39,6 +53,7 @@ const about = () => {
                                 by our innovative ideas which then converted into design to make a new product.
                                 Our motto is to provide a complete high quality finished product for your dream project’s architectural division.
                             </p>
+                            </motion.main>
                             <Link href="/about/1"
                                 className="shadow-lg shadow-cyan-500/50 ... text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
                                 Learn more
@@ -47,6 +62,7 @@ const about = () => {
                     </div>
                 </div>
             </section>
+            
         </>
     )
 }
