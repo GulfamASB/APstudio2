@@ -5,7 +5,7 @@ import Nav from "./components/Nav"
 import localFont from 'next/font/local'
 
 
-const myFont = localFont({ src: '../fonts/Bodoni MT.ttf' })
+const myFont = localFont({ src: '../fonts/Poster Bodoni Bold.ttf' })
 
 export const metadata: Metadata = {
   title: 'A Plus Studio',
@@ -19,6 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+   
       <body  className={myFont.className}>
         <Nav />
         {children}
