@@ -23,7 +23,7 @@ const clip = () => {
         <div className={myFont.className}>
           <h1 className="max-w-2xl text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white  animate-pulse bg-gradient-to-r from-pink-500 via-green-500 to-violet-500 bg-clip-text text-transparent"> APS Wall Cladding and Doors </h1>
           </div>
-          <p className=" bg-black bg-opacity-25 p-2 max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400" > checkout to global sales tax compliance, companies around the world use Flowbite to simplify their payment stack.
+          <p className=" bg-black bg-opacity-25 p-2 max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400" > A plus studio is specialized in manufacturing engineered products. It is specialized in manufacturing of Doors and Wall-Cladding.
           </p>
           <Link href="/" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
             Get started
