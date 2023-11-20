@@ -1,11 +1,11 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import Footer from './components/Footer'
 import Nav from "./components/Nav"
+import localFont from 'next/font/local'
 
 
-const inter = Inter({ subsets: ['latin'] })
+const myFont = localFont({ src: '../fonts/Bodoni MT.ttf' })
 
 export const metadata: Metadata = {
   title: 'A Plus Studio',
@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body style={{fontFamily:'bodoni mt'}} className={inter.className}>
+      <body  className={myFont.className}>
         <Nav />
         {children}
       <Footer/>
