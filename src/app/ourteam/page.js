@@ -23,9 +23,7 @@ const Ourteam = () => {
                             With over 40 years of combined experience, we've got a well-seasoned team at the helm.
                         </p>
                     </div>
-                </div>
-
-    
+                </div>  
                 <div className="flex flex-wrap">
               
                     <div className="w-full md:w-6/12 lg:w-3/12 mb-6 px-6 sm:px-6 lg:px-4">
@@ -39,19 +37,15 @@ const Ourteam = () => {
                                     src="/CEO.jpg" />
                             </Link>
 
-
                             <div className="text-center mt-6">
                    
                                 <h1 className="text-gray-900 text-xl font-bold mb-1">
                                 Aamir Ahmed
                                 </h1>
-
                          
                                 <div className="text-gray-700 font-light mb-2">
                                     CEO & Founder
-                                </div>
-
-                           
+                                </div>                          
                                 <div className="flex items-center justify-center opacity-50 hover:opacity-100
                                     transition-opacity duration-300">
                           
