@@ -41,7 +41,7 @@ const Contact = () => {
 
   return (
     <>
-     <div className="container my-24 mx-auto md:px-6 ">
+     <div className="container py-24 mx-auto md:px-6 ">
   <section  className=" margin={5}">
     <div className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat bg-[url('https://mdbcdn.b-cdn.net/img/new/textures/full/284.jpg')]"></div>
     <div className="container px-6 md:px-12">
