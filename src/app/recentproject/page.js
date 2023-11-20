@@ -32,7 +32,7 @@ const Recentproject = () => {
         className="h-64 w-80 rounded-lg " src="/AP6.jpg" alt=""/>
       <div
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
-    <p style={{marginTop:'-7rem'}} className="bg-opacity-40 relative  bg-black  text-white md:justify-center md:flex md:items-center">A Plus Studio</p>
+    <p style={{marginTop:'-5rem'}} className="bg-opacity-40 relative  bg-black  text-white md:justify-center md:flex md:items-center">A Plus Studio</p>
     </div>
     <div className="relative max-w-xs overflow-hidden bg-cover rounded-lg  bg-no-repeat">
     <Image 
@@ -41,6 +41,7 @@ const Recentproject = () => {
         className="h-64 w-80 rounded-lg " src="/02.jpg" alt=""/>
       <div
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
+      <p style={{marginTop:'-5rem'}} className="bg-opacity-40 relative  bg-black  text-white md:justify-center md:flex md:items-center">A Plus Studio</p>
     </div>
     <div className="relative max-w-xs overflow-hidden bg-cover rounded-lg  bg-no-repeat">
     <Image 
@@ -49,6 +50,7 @@ const Recentproject = () => {
         className="h-64 w-80 rounded-lg " src="/AP7.jpg" alt=""/>
       <div
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
+      <p style={{marginTop:'-5rem'}} className="bg-opacity-40 relative  bg-black  text-white md:justify-center md:flex md:items-center">A Plus Studio</p>
     </div>
     <div className="relative max-w-xs overflow-hidden bg-cover rounded-lg  bg-no-repeat">
     <Image 
@@ -57,6 +59,7 @@ const Recentproject = () => {
         className="h-64 w-80 rounded-lg " src="/a21.jpg" alt=""/>
       <div
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
+      <p style={{marginTop:'-5rem'}} className="bg-opacity-40 relative  bg-black  text-white md:justify-center md:flex md:items-center">A Plus Studio</p>
     </div>
 
     
