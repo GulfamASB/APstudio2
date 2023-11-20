@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from "next/image"
 import Link from 'next/link'
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 const Ourteam = () => {
   return (
     <>
-    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css"></link>
       <div className="flex items-center justify-center bg-white py-24">
     <div className="flex flex-col">
 
@@ -56,13 +56,13 @@ const Ourteam = () => {
                                     transition-opacity duration-300">
                           
                                     <Link href="/" className="flex rounded-full hover:bg-indigo-50 h-10 w-10">
-                                        <i className="mdi mdi-linkedin text-indigo-500 mx-auto mt-2"></i>
+                                        <i className="text-indigo-500 mx-auto mt-2"><FaLinkedinIn /></i>
                                     </Link>
-                                    <Link href="/" className="flex rounded-full hover:bg-blue-50 h-10 w-10">
-                                        <i className="mdi mdi-twitter text-blue-300 mx-auto mt-2"></i>
+                                    <Link href="/" className="flex rounded-full hover:bg-blue-50 h-10 w-10">                                       
+                                        <i  className=" text-blue-300 mx-auto mt-2"> <FaTwitter /> </i> 
                                     </Link>                               
                                     <Link href="/" className="flex rounded-full hover:bg-orange-50 h-10 w-10">
-                                        <i className="mdi mdi-instagram text-orange-400 mx-auto mt-2"></i>
+                                        <i className="text-orange-400 mx-auto mt-2"> <FaInstagram /> </i>
                                     </Link>
                                 </div>
                             </div>
