@@ -5,7 +5,7 @@ import Nav from "./components/Nav"
 import localFont from 'next/font/local'
 
 
-const myFont = localFont({ src: '../fonts/Poster Bodoni Bold.ttf' })
+const myFont = localFont({ src: '../fonts/BOD_R (1).ttf' })
 
 export const metadata: Metadata = {
   title: 'A Plus Studio',
