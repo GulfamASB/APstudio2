@@ -40,7 +40,7 @@ const Wall = () => {
           </div>
           <div className="mx-auto w-1/2 md:w-1/3">
             <Image
-              src="/02.jpg"
+              src="/S-1 copy.jpg"
               alt="ecommerce"
               width={400}
               height={100}
