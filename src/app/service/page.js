@@ -14,9 +14,8 @@ const Services = () => {
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
               <div className="w-full md:w-1/4 space-y-4">
-                <h3 className="font-medium text-2xl">Advanced Wall Cladding</h3>
-                <p >
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. 
+                <h3 className="font-medium text-2xl"> Wall Cladding</h3>
+                <p > A plus studio provides the good and unique quality of Wall cladding for the covering of a wall with materials that provide both aesthetic and functional benefits. 
                 </p>
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
@@ -34,9 +33,9 @@ const Services = () => {
         <div
           className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
-            <h3 className="font-medium text-2xl">Multi-Device Synchronization</h3>
+            <h3 className="font-medium text-2xl">High Quality Doores</h3>
             <p style={{ marginLeft: 20, marginRight: 20 }}>
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. 
+                  A plus studio provides the high & good quality of doores. with Concealed Hinge quality of Hinges  for your interior swinging doors. and movement, Adjustability and functionality.
                 </p>
           </div>
           <div className="mx-auto w-1/2 md:w-1/3">

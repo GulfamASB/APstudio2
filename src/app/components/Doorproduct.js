@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Product = () => {
   return (
 
-      <div className="bg-stone-300">
+      <div className="bg-gradient-to-r from-violet-100 to-pink-100">
      <div  className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"></h1>
           <div className="space-y-16">

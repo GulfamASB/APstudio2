@@ -61,7 +61,6 @@ const Recentproject = () => {
         className="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-30 "></div>
       <p style={{marginTop:'-5rem'}} className="bg-opacity-40 relative  bg-black  text-white md:justify-center md:flex md:items-center">A Plus Studio</p>
     </div>
-
     
 </div>
 
