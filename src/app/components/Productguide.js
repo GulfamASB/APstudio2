@@ -32,6 +32,6 @@ const Productguide = () => {
 
         </>
     )
-}
+};
 
 export default Productguide

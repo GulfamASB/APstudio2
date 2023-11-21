@@ -29,5 +29,5 @@ const Door = () => {
       </div>
     </>
   )
-}
+};
 export default Door
