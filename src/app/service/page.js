@@ -22,7 +22,7 @@ const Services = () => {
                 <Image
                   src="/AP3.jpg"
                   alt="ecommerce"
-                  width={500}
+                  width={450}
                   height={100}
                 />
               </div>
@@ -42,7 +42,7 @@ const Services = () => {
             <Image
               src="/AP3.jpg"
               alt="ecommerce"
-              width={500}
+              width={450}
               height={100}
             />
           </div>
