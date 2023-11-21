@@ -35,7 +35,7 @@ const clip = () => {
         
         <div className="mt-12 opacity-40 relative z-10 inline-block animate-bounce rounded-full p-4 bg-black text-white text-sm">
         <svg className="w-6 h-6 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
         </svg>
     </div>
       </section>

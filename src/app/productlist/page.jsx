@@ -4,6 +4,7 @@ import { HiPencilAlt } from "react-icons/hi";
 import { NextResponse } from 'next/server'
 import baseUrl from '@/utils/baseUrl'
 import Image from 'next/image'
+
 const getTopics = async () => {
   try {
     const NextResponse = await fetch(`${baseUrl}/api/products`,{

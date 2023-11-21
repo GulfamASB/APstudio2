@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image"
 import Link from 'next/link'
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+
 const Ourteam = () => {
   return (
     <>
