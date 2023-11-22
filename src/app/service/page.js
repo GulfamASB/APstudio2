@@ -24,6 +24,7 @@ const Services = () => {
                   alt="ecommerce"
                   width={450}
                   height={100}
+                  className=' rounded-sm'
                 />
               </div>
             </div>
@@ -44,6 +45,7 @@ const Services = () => {
               alt="ecommerce"
               width={450}
               height={100}
+              className='rounded-sm'
             />
           </div>
         </div>
