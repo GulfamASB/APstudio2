@@ -1,4 +1,3 @@
-
 import NextAuthSessionProvider from '@/app/components/SessionProvider';
 export default function RootLayout({
   children,
