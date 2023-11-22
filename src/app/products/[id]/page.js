@@ -52,9 +52,9 @@ export default async function ProductsList({params}) {
         <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-60 md:justify-center md:flex md:items-center ">
         <div className="w-full md:w-1/4 space-y-4">
-                <h3 className="font-medium text-2xl">Better and Good Quality Product</h3>
+                <h3 className="font-medium text-2xl">Sleek Design: Product</h3>
                 <p>
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. 
+              A plus studio provide the sleek Design: Experience the perfect fusion of form and function with our sleek and modern designs. Our product not only performs exceptionally but also adds a touch of elegance to your workspace or home/offices.
                 </p>
               </div>
         <div className=" mx-auto w-1/2 md:w-1/3">
@@ -72,9 +72,9 @@ export default async function ProductsList({params}) {
     <div
           className="py-16 text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-60 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
-            <h3 className="font-medium text-2xl">Heigh Quality of Product</h3>
+            <h3 className="font-medium text-2xl">Heigh Quality Product & Reliability</h3>
             <p>
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. 
+            Reliability: Trust in the durability and reliability of our product. Designed with precision engineering, our products are built to withstand rigorous usage and deliver consistent performance.
                 </p>
           </div>
           <div className="mx-auto w-1/2 md:w-1/3">
@@ -92,7 +92,7 @@ export default async function ProductsList({params}) {
         <div className="w-full md:w-1/4 space-y-4">
                 <h3 className="font-medium text-2xl">Better and Good Quality Product</h3>
                 <p>
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. 
+                A Plus Studio provides high-quality products as per your requirements. such as your choice of color and your size of products or quantity.
                 </p>
               </div>
         <div className="mx-auto w-1/2 md:w-1/3">

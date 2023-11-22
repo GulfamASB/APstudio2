@@ -4,26 +4,24 @@ import Image from 'next/image'
 const Product = () => {
   return (
 
-      <div className="bg-gradient-to-r from-violet-100 to-pink-100">
+      <div className="bg-gradient-to-r from-violet-50 to-pink-50">
      <div  className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"></h1>
           <div className="space-y-16">
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
               <div className="w-full md:w-1/4 space-y-4">
-                <h3 className="font-medium text-2xl">Door</h3>
-                <h2>.........</h2>
+                <h1 className="font-medium text-3xl">Door</h1>            
                 <p>
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. This feature provides enhanced security by allowing access only to authorized users
+                A plus studio provides the high & good quality of doores. with Concealed Hinge quality of Hinges for your interior swinging doors. with movement, Adjustability and functionality.
                 </p>
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
-                <Image
-                  src="/AP3.jpg"
-                  alt="ecommerce"
-                  width={400}
-                  height={100}
-                />
+              <Image 
+            width={10000}
+            height={10000}
+            className="h-64 w-96 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/AP3.jpg' alt='' />
+           
               </div>
             </div>
 
@@ -32,19 +30,18 @@ const Product = () => {
         <div
           className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
-            <h3 className="font-medium text-2xl">Multi-Device Synchronization</h3>
-            <p>
-              Multi-Device Synchronization
-              Description: This product offers seamless synchronization across multiple devices. Users can easily sync their data, settings, and preferences across devices such as smartphones, tablets, and computers.
+            <h3 className="font-medium text-2xl">Adjustable Concealed Hinge</h3>
+            <p style={{ marginLeft: 20, marginRight: 20 }}>
+              A plus studio provides the High quality of hinges for Doores. The concealed hinge design offers a sleek and minimalist aesthetic to furniture and interiors. Concealed hinges, also known as European hinges, are a popular choice for modern cabinetry and doors.
+              These hinges are installed inside the cabinet or door, making them invisible when closed.
             </p>
           </div>
           <div className="mx-auto w-1/2 md:w-1/3">
-            <Image
-              src="/door.jpg"
-              alt="ecommerce"
-              width={400}
-              height={100}
-            />
+          <Image 
+            width={10000}
+            height={10000}
+            className="h-64 w-96 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/hinge.jpg' alt='' />
+           
           </div>
         </div>
         <div className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
@@ -58,36 +55,14 @@ const Product = () => {
                 </p>
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
-                <Image
-                  src="/AP3.jpg"
-                  alt="ecommerce"
-                  width={400}
-                  height={100}
-                />
+              <Image 
+            width={10000}
+            height={10000}
+            className="h-64 w-96 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/AP3.jpg' alt='' />
+           
               </div>
             </div>
 
-          </div>
-        </div>
-        <div className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
-          <div className="space-y-16">
-            <div
-              className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
-              <div className="w-full md:w-1/4 space-y-4">
-                <h3 className="font-medium text-2xl">Advanced Wall Cladding</h3>
-                <p>
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. This feature provides enhanced security by allowing access only to authorized users
-                </p>
-              </div>
-              <div className="mx-auto w-1/2 md:w-1/3">
-                <Image
-                  src="/AP3.jpg"
-                  alt="ecommerce"
-                  width={400}
-                  height={100}
-                />
-              </div>
-            </div>
           </div>
         </div>
        </div>
