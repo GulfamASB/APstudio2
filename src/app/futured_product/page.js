@@ -43,7 +43,6 @@ const futured_product = () => {
           </div>
         </div>
       </section>
-
     </>
   )
 }
