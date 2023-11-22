@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Product = () => {
   return (
 
-      <div className="bg-gradient-to-r from-violet-50 to-pink-50">
+      <div className="bg-white">
      <div  className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"></h1>
           <div className="space-y-16">
@@ -20,7 +20,7 @@ const Product = () => {
               <Image 
             width={10000}
             height={10000}
-            className="h-64 w-96 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/AP3.jpg' alt='' />
+            className="h-64 w-96 rounded-xl shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/AP3.jpg' alt='' />
            
               </div>
             </div>
@@ -40,7 +40,7 @@ const Product = () => {
           <Image 
             width={10000}
             height={10000}
-            className="h-64 w-96 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/hinge.jpg' alt='' />
+            className="h-64 w-96 rounded-xl shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/hinge.jpg' alt='' />
            
           </div>
         </div>
@@ -49,17 +49,16 @@ const Product = () => {
             <div
               className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center ">
               <div className="w-full md:w-1/4 space-y-4">
-                <h3 className="font-medium text-2xl">Advanced Wall Cladding</h3>
+                <h3 className="font-medium text-2xl">Functional Elements of Door</h3>
                 <p>
-                  The product is equipped with an advanced facial recognition system that can accurately identify and authenticate individuals based on their unique facial features. This feature provides enhanced security by allowing access only to authorized users
+                A Plus studio provides high-quality of Hinge, handles, locks, and other hardware components are integral to a door's functionality. These elements not only facilitate movement but also contribute to the overall design and security of the door.
                 </p>
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
               <Image 
             width={10000}
             height={10000}
-            className="h-64 w-96 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/AP3.jpg' alt='' />
-           
+            className="h-64 w-96 rounded-xl shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/a21.jpg' alt='' />           
               </div>
             </div>
 

@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Wall = () => {
   return (
 
-      <div className="bg-stone-100">
+      <div className="bg-white">
      <div  className="py-8 mb-8 md:py-16 w-11/12 lg:w-10/12 xl:w-1200 m-auto">
           <h1 className="mb-4 text-4xl mb-8 tracking-tight font-extrabold text-center text-gray-900 dark:text-white"></h1>
           <div className="space-y-16">
@@ -18,12 +18,12 @@ const Wall = () => {
                 </p>
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
-                <Image
-                  src="/S-1 copy.jpg"
-                  alt="ecommerce"
-                  width={400}
-                  height={100}
-                />
+                
+                   <Image 
+            width={10000}
+            height={10000}
+            className=" rounded-xl  transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src='/S-1 copy.jpg' alt='' />
+           
               </div>
             </div>
 
@@ -32,7 +32,7 @@ const Wall = () => {
         <div
           className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
-            <h3 className="font-medium text-2xl">Deffrent type of color Wall cladding</h3>
+            <h3 className="font-medium text-2xl">Deffrent color Wall cladding</h3>
             <p style={{ marginLeft: 20, marginRight: 20 }}>
            we provides good and deffrent color of Wall cladding and It is an exterior covering applied to the walls of a building to protect it from weather conditions.
             </p>
@@ -43,6 +43,7 @@ const Wall = () => {
               alt="ecommerce"
               width={400}
               height={100}
+              className='rounded-xl'
             />
           </div>
         </div>
@@ -62,6 +63,7 @@ const Wall = () => {
                   alt="ecommerce"
                   width={400}
                   height={100}
+                  className='rounded-xl'
                 />
               </div>
             </div>
