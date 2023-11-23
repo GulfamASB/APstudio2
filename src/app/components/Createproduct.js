@@ -58,7 +58,7 @@ const Post = ()=>{
 
   return (
     <div style={{ marginTop: '-9rem' }}>
-      <section className="relative z-10 max-w-4x1  p-6 mx-auto  rounded-md  dark:bg-gray-800 mt-20">
+      <section className="relative z-10 max-w-4x1  p-6 mx-auto  rounded-md  mt-20">
         <h1 className="text-xl font-bold text-black capitalize dark:text-black ">Post</h1>
         <form onSubmit={(e)=>handleSubmit(e)}>
           <div className="grid grid-cols-1 gap-6 mt-4 sm:grid-cols-2">
@@ -67,7 +67,7 @@ const Post = ()=>{
               <input 
               value={name} 
               name="name"
-              id="username" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-[#d6d3d1] border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
+              id="username" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-[#d6d3d1] border border-gray-300 rounded-md  dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
               onChange={(e)=>{setName(e.target.value)}} />
             </div>
             <div>
@@ -75,7 +75,7 @@ const Post = ()=>{
               <input 
               value={code} 
               name="code"
-              id="code" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-[#d6d3d1] border border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
+              id="code" type="text" className="block w-full px-4 py-2 mt-2 text-gray-700 bg-[#d6d3d1] border border-gray-300 rounded-md  dark:text-gray-300 dark:border-gray-600 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring"
               onChange={(e)=>{setCode(e.target.value)}} />
             </div>
             <div>
