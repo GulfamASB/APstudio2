@@ -29,13 +29,13 @@ export default async function ProductsList() {
         
         <div
           key={t._id}
-          className="p-4 border border-slate-300 my-3 flex justify-between gap-5 items-start"
+          className="p-4 border border-slate-300  flex justify-between gap-5 items-start"
         >
           <div>
-            <Image
+          <Image 
             width={10000}
             height={10000}
-            className=" w-48 h-60 font-bold text-2xl h-40 " src={t.mediaUrl} alt='' />
+            className="h-80 w-64 rounded-xl  p-2 shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={t.mediaUrl} alt='' />
             <h1 className="font-bold">{t.name}</h1>
             <h1 className="text-lime-600">{t.code}</h1>
           </div>
