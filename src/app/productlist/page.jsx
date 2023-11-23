@@ -38,8 +38,8 @@ export default async function ProductsList() {
             className="h-80 w-64 rounded-xl   shadow-md  bg-white transition duration-300 ease-in-out  transform hover:scale-110 motion-reduce:transform-none ... " src={t.mediaUrl}  alt='' />
             
            
-            <h1 className="font-bold">{t.name}</h1>
-            <h1 className="text-lime-600">{t.code}</h1>
+            <h1 className="font-bold text-center">{t.name}</h1>
+            <h1 className="text-lime-600 text-center">{t.code}</h1>
           </div>
 
           <div className="flex gap-2">
