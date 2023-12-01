@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const MONGODB_URL = ("mongodb+srv://aplusstudio:0puCro19casYDMyf@cluster0.2lsxutr.mongodb.net/APStudio")
+const MONGODB_URL = (process.env.DB_URL)
 if (!MONGODB_URL) {
     throw new Error(
         "Please define the MONGODB_URI environment variable inside .env.local"
