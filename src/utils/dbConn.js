@@ -1,12 +1,12 @@
 import mongoose from "mongoose"
 
-const MONGODB_URL = (process.env.DB_URL)
+const MONGODB_URL = ('process.env.DB_URL')
 if (!MONGODB_URL) {
     throw new Error(
-        "Please define the MONGODB_URI environment variable inside .env.local"
+        "Please define the URL environment variable inside .env.local"
     )
 }
-
+URL
 
 let cached = global.mongoose;
 
