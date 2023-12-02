@@ -9,7 +9,7 @@ export default function Home() {
   if(status === "loading") {
     return <div className="py-24  text-white " style={{backgroundColor:'black'}}>
       <h1 className="flex h-screen justify-center bg-[#404040] items-center">
-        Loading................
+        Loading.............
       </h1>
     </div>
   }
