@@ -28,6 +28,8 @@ const nextConfig = {
         },
       ],
     },
+
+    
 }
 
 
