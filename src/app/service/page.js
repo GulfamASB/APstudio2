@@ -20,7 +20,7 @@ const Services = () => {
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
                 <Image
-                  src="/S-1 copy.jpg"
+                  src="/apc.jpg"
                   alt="ecommerce"
                   width={450}
                   height={100}
@@ -34,8 +34,8 @@ const Services = () => {
         <div
           className=" text-xl space-y-8 md:space-y-0 text-center md:text-left md:space-x-16 md:justify-center md:flex md:items-center md:flex-row-reverse">
           <div className="w-full md:w-1/4 space-y-4">
-            <h3 className="font-medium text-2xl">High Quality Doores</h3>
-            <p style={{ marginLeft: 20, marginRight: 20 }}>
+            <h3 style={{ marginLeft: 30, marginRight: 30 }} className="font-medium text-2xl">High Quality Doores</h3>
+            <p style={{ marginLeft: 30, marginRight: 30 }}>
                   A plus studio provides the high & good quality of doores. with Concealed Hinge quality of Hinges  for your interior swinging doors. with movement, Adjustability and functionality.
                 </p>
           </div>
