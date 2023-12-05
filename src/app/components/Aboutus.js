@@ -11,9 +11,10 @@ const variants = {
 const about = () => {
     return (
         <>
+        <div className='py-24'>
        
-            <section style={{ marginBottom: '-6rem' }} className=" flex items-center py-12 bg-gradient-to-r from-violet-100 to-pink-100 xl:h-screen font-poppins dark:bg-gray-800 ">
-                <div className="justify-center flex-1 max-w-6xl py-8 mx-auto lg:py-6 md:px-6">
+            <section style={{ marginBottom: '-12rem' }} className=" flex items-center  bg-gradient-to-r from-violet-100 to-pink-100 xl:h-screen font-poppins dark:bg-gray-800 ">
+                <div className="justify-center flex-1 max-w-6xl mx-auto lg:py-6 md:px-6">
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
                             <div className="relative z-10 my-4">
@@ -55,6 +56,7 @@ const about = () => {
                 </div>
             </section>
             
+        </div>
         </>
     )
 }
