@@ -22,6 +22,15 @@ const orderdetailsSchema = new mongoose.Schema(
             type: String,
             required: true,
         },
+        size2: {
+            type: String,
+            required: true,
+        },
+        colorName: {
+            type: String,
+            required: true,
+        },
+        
         message:{
             type: String,
             required: true,
